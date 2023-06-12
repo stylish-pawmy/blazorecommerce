@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pawmy/Projects/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj": {}
+  },
+  "projects": {
+    "/home/pawmy/Projects/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pawmy/Projects/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj",
+        "projectName": "BlazorEcommerce.Client",
+        "projectPath": "/home/pawmy/Projects/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj",
+        "packagesPath": "/home/pawmy/.nuget/packages/",
+        "outputPath": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pawmy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/pawmy/Projects/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj": {
+                "projectPath": "/home/pawmy/Projects/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/pawmy/Projects/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pawmy/Projects/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj",
+        "projectName": "BlazorEcommerce.Server",
+        "projectPath": "/home/pawmy/Projects/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj",
+        "packagesPath": "/home/pawmy/.nuget/packages/",
+        "outputPath": "/home/pawmy/Projects/BlazorEcommerce/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pawmy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "/usr/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/pawmy/Projects/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj": {
+                "projectPath": "/home/pawmy/Projects/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj"
+              },
+              "/home/pawmy/Projects/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj": {
+                "projectPath": "/home/pawmy/Projects/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/pawmy/Projects/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pawmy/Projects/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj",
+        "projectName": "BlazorEcommerce.Shared",
+        "projectPath": "/home/pawmy/Projects/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj",
+        "packagesPath": "/home/pawmy/.nuget/packages/",
+        "outputPath": "/home/pawmy/Projects/BlazorEcommerce/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pawmy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

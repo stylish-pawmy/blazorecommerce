@@ -1,0 +1,12 @@
+/home/pawmy/Projects/BlazorEcommerce/Shared/bin/Debug/net7.0/BlazorEcommerce.Shared.deps.json
+/home/pawmy/Projects/BlazorEcommerce/Shared/bin/Debug/net7.0/BlazorEcommerce.Shared.dll
+/home/pawmy/Projects/BlazorEcommerce/Shared/bin/Debug/net7.0/BlazorEcommerce.Shared.pdb
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/BlazorEcommerce.Shared.csproj.AssemblyReference.cache
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/BlazorEcommerce.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/BlazorEcommerce.Shared.AssemblyInfoInputs.cache
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/BlazorEcommerce.Shared.AssemblyInfo.cs
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/BlazorEcommerce.Shared.csproj.CoreCompileInputs.cache
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/BlazorEcommerce.Shared.dll
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/refint/BlazorEcommerce.Shared.dll
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/BlazorEcommerce.Shared.pdb
+/home/pawmy/Projects/BlazorEcommerce/Shared/obj/Debug/net7.0/ref/BlazorEcommerce.Shared.dll
