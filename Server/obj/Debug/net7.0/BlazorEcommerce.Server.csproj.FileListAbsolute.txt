@@ -52,3 +52,8 @@
 /home/pawmy/Projects/BlazorEcommerce/Server/obj/Debug/net7.0/BlazorEcommerce.Server.pdb
 /home/pawmy/Projects/BlazorEcommerce/Server/obj/Debug/net7.0/BlazorEcommerce.Server.genruntimeconfig.cache
 /home/pawmy/Projects/BlazorEcommerce/Server/obj/Debug/net7.0/ref/BlazorEcommerce.Server.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/obj/Debug/net7.0/BlazorEcommerce.Server.MvcApplicationPartsAssemblyInfo.cs
