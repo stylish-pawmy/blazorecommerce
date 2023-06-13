@@ -1,11 +1,15 @@
 global using BlazorEcommerce.Shared;
+global using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.ResponseCompression;
 using Swashbuckle.AspNetCore;
+using BlazorEcommerce.Server.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddEndpointsApiExplorer();
