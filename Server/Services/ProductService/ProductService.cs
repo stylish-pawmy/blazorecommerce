@@ -18,4 +18,23 @@ public class ProductService : IProductService
         
         return response;
     }
+
+    public async Task<ServiceResponse<Product>> GetProductAsync(int productId)
+    {
+        var response = new ServiceResponse<Product>();
+        var product = await _context.Products.FindAsync(productId);
+
+        if (product is null)
+        {
+            response.Message = "Product could not be retrieved from Database.";
+            response.Success = false;
+        }
+        else
+        {
+            response.Data = product;
+            response.Message = "Product retrieved successfully.";
+        }
+
+        return response;
+    }
 }

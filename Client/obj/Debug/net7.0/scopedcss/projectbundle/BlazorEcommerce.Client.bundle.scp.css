@@ -14,6 +14,9 @@
 
 @media (max-width: 1023.99px)
 {
+    .media[b-3m969fu4wz] {
+        flex-direction: column;
+    }
     .media-img[b-3m969fu4wz] {
         max-width: 300px;
     }
@@ -190,15 +193,6 @@ main[b-zca574wuff] {
 .media-img-wrapper[b-bgi9vv9rdq] {
     width: 200px;
     text-align: center;
-}
-
-.media[b-bgi9vv9rdq] {
-    display: flex;
-    align-items: flex-start;
-}
-
-.media-body[b-bgi9vv9rdq] {
-    flex: 1;
 }
 
 @media (max-width: 1023.99px)
