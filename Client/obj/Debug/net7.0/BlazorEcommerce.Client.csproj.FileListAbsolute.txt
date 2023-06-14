@@ -835,3 +835,4 @@
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/BlazorEcommerce.Client.pdb
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/ref/BlazorEcommerce.Client.dll
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Shared/ProductList.razor.rz.scp.css
+/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Pages/ProductDetails.razor.rz.scp.css
