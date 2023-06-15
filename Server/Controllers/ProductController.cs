@@ -34,4 +34,11 @@ public class ProductController : ControllerBase
         var response = await _productService.GetProductAsync(productId);
         return Ok(response);
     }
+
+    [HttpGet("search/{searchText}")]
+    public async Task<ActionResult<ServiceResponse<List<Product>>>> SearchProducts(string searchText)
+    {
+        var response = await _productService.SearchProductsAsync(searchText);
+        return Ok(response);
+    }
 }

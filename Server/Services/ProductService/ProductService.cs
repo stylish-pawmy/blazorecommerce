@@ -56,4 +56,21 @@ public class ProductService : IProductService
 
         return response;
     }
+
+    public async Task<ServiceResponse<List<Product>>> SearchProductsAsync(string searchText)
+    {
+        var response = new ServiceResponse<List<Product>>()
+        {
+            Data = await _context.Products
+            .Where(p => 
+                p.Title.ToLower().Contains(searchText.ToLower())
+                || p.Description.ToLower().Contains(searchText.ToLower())
+            )
+            .Include(p => p.Variants)
+            .ThenInclude(v => v.ProductType)
+            .ToListAsync()
+        };
+
+        return response;
+    }
 }
