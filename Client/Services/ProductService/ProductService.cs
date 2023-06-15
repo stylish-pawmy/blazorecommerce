@@ -22,4 +22,20 @@ public class ProductService : IProductService
         
         ProductListChanged.Invoke();
     }
+    
+    public async Task<ServiceResponse<Product>> GetProduct(int productId)
+    {
+        var response = await _http.GetFromJsonAsync<ServiceResponse<Product>>($"api/product/{productId}");
+
+        if (response is not null && response.Data is not null)
+        {
+            return response;
+        }
+        
+        return new ServiceResponse<Product>()
+                {
+                    Success = false,
+                    Message = "Could not fetch product."
+                };
+    }
 }

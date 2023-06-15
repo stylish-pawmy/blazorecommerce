@@ -12,22 +12,54 @@ else {
         <div class="media-body">
             <h4 class="mb-0">@Product.Title</h4>
             <p>@Product.Description</p>
-            <h5 class="price">
-                @* DZD @Product.Price *@
-            </h5>
+            @if (GetSelectedVariant() != null)
+            {
+                @if (GetSelectedVariant().OriginalPrice > GetSelectedVariant().Price)
+                {
+                    <h6 class="text-muted original-price">
+                        DZD @GetSelectedVariant().OriginalPrice
+                    </h6>
+                }
+            }
+            <h4 class="price">
+                DZD @GetSelectedVariant().Price
+            </h4>
         </div>
     </div>
 }
 
 @code {
+    private int currentTypeId = 1;
     private Product? Product = null;
+    private string? message = null;
 
     [Parameter]
     public int Id { get; set; }
 
-        protected override void OnParametersSet()
+    protected override async Task OnParametersSetAsync()
+    {
+        message = "Loading Data";
+        var response = await ProductService.GetProduct(Id);
+
+        if (!response.Success)
         {
-            Product = ProductService.Products.Find(p => p.Id == Id);
+            message = response.Message;
         }
+        else {
+            Product = response.Data;
+            if (Product.Variants.Count > 0)
+            {
+                currentTypeId = Product.Variants[0].ProductTypeId;
+            }
+        }
+
+    }
+
+    private ProductVariant GetSelectedVariant()
+    {
+        var variant = Product.Variants.FirstOrDefault(v => v.ProductTypeId == currentTypeId);
+        return variant;
+    }
+
 }
 
