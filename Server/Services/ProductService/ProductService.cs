@@ -57,20 +57,56 @@ public class ProductService : IProductService
         return response;
     }
 
+    public async Task<ServiceResponse<List<string>>> GetProductsSearchSuggestionsAsync(string searchText)
+    {
+        var results = new List<string>();
+        var searchResults = await GetProductsSearchListAsync(searchText);
+
+        foreach (var product in searchResults)
+        {
+            //Title suggestions
+            if (product.Title.ToLower().Contains(searchText.ToLower()))
+                results.Add(product.Title);
+
+            //Description suggestions
+            if (product.Description is not null)
+            {
+                var punctuation = product.Description.Where(char.IsPunctuation).Distinct().ToArray();
+                var words = product.Description.Split().Select(w => w.Trim(punctuation));
+
+                foreach(var word in words)
+                {
+                    if (word.ToLower().Contains(searchText) && !results.Contains(word))
+                        results.Add(word);
+                }
+            }
+        }
+
+
+        var response = new ServiceResponse<List<string>>() { Data = results};
+        return response;
+    }
+
     public async Task<ServiceResponse<List<Product>>> SearchProductsAsync(string searchText)
     {
         var response = new ServiceResponse<List<Product>>()
         {
-            Data = await _context.Products
+            Data = await GetProductsSearchListAsync(searchText)
+        };
+
+        return response;
+    }
+
+    public async Task<List<Product>> GetProductsSearchListAsync(string searchText)
+    {
+        return 
+            await _context.Products
             .Where(p => 
                 p.Title.ToLower().Contains(searchText.ToLower())
                 || p.Description.ToLower().Contains(searchText.ToLower())
             )
             .Include(p => p.Variants)
             .ThenInclude(v => v.ProductType)
-            .ToListAsync()
-        };
-
-        return response;
+            .ToListAsync();
     }
 }
