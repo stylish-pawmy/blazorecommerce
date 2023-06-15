@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 473545717,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.App",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorEcommerce.Client",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1118176158,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.App",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorEcommerce.Client",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 483037155,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Counter",
@@ -381,6 +344,43 @@
         }
       },
       {
+        "HashCode": -510328307,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.ProductList",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductList"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
+          "Common.TypeNameIdentifier": "ProductList",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -493468896,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.ProductList",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.ProductList"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
+          "Common.TypeNameIdentifier": "ProductList",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -443663303,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.NavMenu",
@@ -418,38 +418,38 @@
         }
       },
       {
-        "HashCode": -510328307,
+        "HashCode": 473545717,
         "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ProductList",
+        "Name": "BlazorEcommerce.Client.App",
         "AssemblyName": "BlazorEcommerce.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ProductList"
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
-          "Common.TypeNameIdentifier": "ProductList",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Common.TypeName": "BlazorEcommerce.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorEcommerce.Client",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -493468896,
+        "HashCode": 1118176158,
         "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ProductList",
+        "Name": "BlazorEcommerce.Client.App",
         "AssemblyName": "BlazorEcommerce.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorEcommerce.Client.Shared.ProductList"
+            "TagName": "BlazorEcommerce.Client.App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
-          "Common.TypeNameIdentifier": "ProductList",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Common.TypeName": "BlazorEcommerce.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorEcommerce.Client",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
