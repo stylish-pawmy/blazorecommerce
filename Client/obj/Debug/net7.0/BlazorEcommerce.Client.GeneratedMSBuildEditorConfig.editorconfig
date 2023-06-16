@@ -59,3 +59,11 @@ build_metadata.AdditionalFiles.CssScope = b-j6c8p94dqg
 [/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ProductList.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Byb2R1Y3RMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-bgi9vv9rdq
+
+[/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ShopLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Nob3BMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qvu4gnldhm
+
+[/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ShopNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Nob3BOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-0e75garbi8
