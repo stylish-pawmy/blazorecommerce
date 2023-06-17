@@ -24,6 +24,18 @@
     font-weight: 600;
     text-align: right;
 }
+
+.remove-button[b-s16kd2ybat] {
+    background: none;
+    border: none;
+    padding: 0px;
+    color: red;
+    font-size: 12px;
+}
+
+    .remove-button:hover[b-s16kd2ybat] {
+        text-decoration: underline;
+    }
 /* /Pages/ProductDetails.razor.rz.scp.css */
 .media-img[b-3m969fu4wz] {
     max-width: 500px;
