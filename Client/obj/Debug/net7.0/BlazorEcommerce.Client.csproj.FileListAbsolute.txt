@@ -839,3 +839,4 @@
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/LKmLQvzh.gz
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/VeditpRq.gz
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Shared/HomeButton.razor.rz.scp.css
+/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Shared/FeaturedProducts.razor.rz.scp.css

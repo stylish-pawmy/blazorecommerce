@@ -638,6 +638,43 @@
         }
       },
       {
+        "HashCode": 503261377,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FeaturedProducts"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+          "Common.TypeNameIdentifier": "FeaturedProducts",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 500822865,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.FeaturedProducts"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+          "Common.TypeNameIdentifier": "FeaturedProducts",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -361186736,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.ProductList",
@@ -16277,6 +16314,11 @@
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/FeaturedProducts.razor",
+      "TargetPath": "Shared\\FeaturedProducts.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/Search.razor",
