@@ -352,112 +352,6 @@
         }
       },
       {
-        "HashCode": 1815279857,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ShopLayout",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShopLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout",
-          "Common.TypeNameIdentifier": "ShopLayout",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1544181330,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ShopLayout",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.ShopLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout",
-          "Common.TypeNameIdentifier": "ShopLayout",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1154301408,
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "ShopLayout"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
-          "Common.TypeNameIdentifier": "ShopLayout",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1528980051,
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "BlazorEcommerce.Client.Shared.ShopLayout"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
-          "Common.TypeNameIdentifier": "ShopLayout",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
         "HashCode": -1329513080,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.ShopNavMenu",
@@ -489,6 +383,80 @@
         "Metadata": {
           "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
           "Common.TypeNameIdentifier": "ShopNavMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1929896515,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.HomeButton",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HomeButton"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.HomeButton",
+          "Common.TypeNameIdentifier": "HomeButton",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 575407877,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.HomeButton",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.HomeButton"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.HomeButton",
+          "Common.TypeNameIdentifier": "HomeButton",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 503261377,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FeaturedProducts"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+          "Common.TypeNameIdentifier": "FeaturedProducts",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 500822865,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.FeaturedProducts"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+          "Common.TypeNameIdentifier": "FeaturedProducts",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -601,77 +569,109 @@
         }
       },
       {
-        "HashCode": 1929896515,
+        "HashCode": 1815279857,
         "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.HomeButton",
+        "Name": "BlazorEcommerce.Client.Shared.ShopLayout",
         "AssemblyName": "BlazorEcommerce.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "HomeButton"
+            "TagName": "ShopLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.HomeButton",
-          "Common.TypeNameIdentifier": "HomeButton",
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout",
+          "Common.TypeNameIdentifier": "ShopLayout",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 575407877,
+        "HashCode": 1544181330,
         "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.HomeButton",
+        "Name": "BlazorEcommerce.Client.Shared.ShopLayout",
         "AssemblyName": "BlazorEcommerce.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorEcommerce.Client.Shared.HomeButton"
+            "TagName": "BlazorEcommerce.Client.Shared.ShopLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.HomeButton",
-          "Common.TypeNameIdentifier": "HomeButton",
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout",
+          "Common.TypeNameIdentifier": "ShopLayout",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 503261377,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+        "HashCode": -1154301408,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
         "AssemblyName": "BlazorEcommerce.Client",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FeaturedProducts"
+            "TagName": "Body",
+            "ParentTag": "ShopLayout"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
-          "Common.TypeNameIdentifier": "FeaturedProducts",
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
+          "Common.TypeNameIdentifier": "ShopLayout",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
         }
       },
       {
-        "HashCode": 500822865,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+        "HashCode": 1528980051,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
         "AssemblyName": "BlazorEcommerce.Client",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorEcommerce.Client.Shared.FeaturedProducts"
+            "TagName": "Body",
+            "ParentTag": "BlazorEcommerce.Client.Shared.ShopLayout"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
-          "Common.TypeNameIdentifier": "FeaturedProducts",
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
+          "Common.TypeNameIdentifier": "ShopLayout",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
+          "Runtime.Name": "Components.None"
         }
       },
       {

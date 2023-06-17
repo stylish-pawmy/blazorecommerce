@@ -290,10 +290,6 @@ main[b-qvu4gnldhm] {
     }
 
 @media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-qvu4gnldhm] {
-        display: none;
-    }
-
     .top-row.auth[b-qvu4gnldhm] {
         justify-content: space-between;
     }
