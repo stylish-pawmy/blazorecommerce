@@ -67,3 +67,4 @@
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Npgsql.dll
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/System.CodeDom.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Blazored.LocalStorage.dll
