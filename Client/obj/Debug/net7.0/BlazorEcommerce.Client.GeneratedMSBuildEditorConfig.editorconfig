@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3m969fu4wz
 
+[/home/pawmy/Projects/BlazorEcommerce/Client/Shared/HomeButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0hvbWVCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-f7svpnrpnz
+
 [/home/pawmy/Projects/BlazorEcommerce/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zca574wuff
