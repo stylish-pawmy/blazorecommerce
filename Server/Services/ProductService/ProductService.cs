@@ -109,4 +109,17 @@ public class ProductService : IProductService
             .ThenInclude(v => v.ProductType)
             .ToListAsync();
     }
+
+    public async Task<ServiceResponse<List<Product>>> GetFeaturedProductsAsync()
+    {
+        var response = new ServiceResponse<List<Product>>() {
+            Data = await _context.Products
+            .Where(p => p.Featured)
+            .Include(p => p.Variants)
+            .ThenInclude(v => v.ProductType)
+            .ToListAsync()
+        };
+
+        return response;
+    }
 }
