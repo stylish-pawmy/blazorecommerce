@@ -5320,43 +5320,6 @@
         }
       },
       {
-        "HashCode": -502776869,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ShopNavMenu",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShopNavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
-          "Common.TypeNameIdentifier": "ShopNavMenu",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 634169198,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ShopNavMenu",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.ShopNavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
-          "Common.TypeNameIdentifier": "ShopNavMenu",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1035005229,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.Search",
@@ -5531,6 +5494,43 @@
         "Metadata": {
           "Common.TypeName": "BlazorEcommerce.Client.Shared.HomeButton",
           "Common.TypeNameIdentifier": "HomeButton",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -502776869,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.ShopNavMenu",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShopNavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
+          "Common.TypeNameIdentifier": "ShopNavMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 634169198,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.ShopNavMenu",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.ShopNavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
+          "Common.TypeNameIdentifier": "ShopNavMenu",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
