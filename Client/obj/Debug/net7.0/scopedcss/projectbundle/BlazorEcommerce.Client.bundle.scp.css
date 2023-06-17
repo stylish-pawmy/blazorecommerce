@@ -1,3 +1,29 @@
+/* /Pages/Cart.razor.rz.scp.css */
+.container[b-s16kd2ybat] {
+    display: flex;
+    padding: 6px;
+}
+
+.image-wrapper[b-s16kd2ybat] {
+    width: 150px;
+    text-align: center;
+}
+
+.image[b-s16kd2ybat] {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+}
+
+.name[b-s16kd2ybat] {
+    flex-grow: 1;
+    padding: 6px;
+}
+
+.cart-product-price[b-s16kd2ybat] {
+    font-weight: 600;
+    text-align: right;
+}
 /* /Pages/ProductDetails.razor.rz.scp.css */
 .media-img[b-3m969fu4wz] {
     max-width: 500px;

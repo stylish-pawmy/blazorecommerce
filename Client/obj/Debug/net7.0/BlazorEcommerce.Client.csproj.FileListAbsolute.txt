@@ -844,3 +844,4 @@
 /home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll.gz
 /home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/Blazored.LocalStorage.dll
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/uzs2fBYA.gz
+/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Pages/Cart.razor.rz.scp.css
