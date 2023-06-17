@@ -14,9 +14,9 @@ public class CartController : ControllerBase
     }
 
     [HttpPost("products")]
-    public async Task<ServiceResponse<List<CartProductResponse>>> GetCartProducts(List<CartItem> cartItems)
+    public async Task<ActionResult<ServiceResponse<List<CartProductResponse>>>> GetCartProducts(List<CartItem> cartItems)
     {
         var response = await _cartService.GetCartProducts(cartItems);
-        return response;
+        return Ok(response);
     }
 }

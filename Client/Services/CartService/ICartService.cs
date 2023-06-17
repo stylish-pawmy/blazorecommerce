@@ -5,4 +5,5 @@ public interface ICartService
     public event Action OnChange;
     public Task<List<CartItem>> GetCartItems();
     public Task AddToCart(CartItem cartItem);
+    public Task<ServiceResponse<List<CartProductResponse>>> GetCartProducts();
 }
