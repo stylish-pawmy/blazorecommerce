@@ -783,6 +783,43 @@
         }
       },
       {
+        "HashCode": 648227541,
+        "Kind": "Components.Component",
+        "Name": "__GeneratedComponent.AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58",
+          "Common.TypeNameIdentifier": "AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58",
+          "Common.TypeNamespace": "__GeneratedComponent",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 100180142,
+        "Kind": "Components.Component",
+        "Name": "__GeneratedComponent.AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "__GeneratedComponent.AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58",
+          "Common.TypeNameIdentifier": "AspNetCore_f889195293aa9c7583f4c020f25406a1913d8a58",
+          "Common.TypeNamespace": "__GeneratedComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 2003147119,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
