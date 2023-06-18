@@ -8,4 +8,5 @@ public class CartProductResponse
     public double Price { get; set; }
     public int ProductTypeId { get; set; }
     public string ProductType { get; set; } = string.Empty;
+    public int Quantity { get; set; }
 }
