@@ -311,43 +311,6 @@
         }
       },
       {
-        "HashCode": 578841243,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CartCounter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
-          "Common.TypeNameIdentifier": "CartCounter",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1572129509,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.CartCounter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
-          "Common.TypeNameIdentifier": "CartCounter",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -758201647,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.Search",
@@ -835,6 +798,43 @@
         "Metadata": {
           "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
           "Common.TypeNameIdentifier": "ShopNavMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 578841243,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CartCounter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
+          "Common.TypeNameIdentifier": "CartCounter",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1572129509,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.CartCounter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
+          "Common.TypeNameIdentifier": "CartCounter",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

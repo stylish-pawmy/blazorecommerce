@@ -18,7 +18,14 @@ public class CartService : ICartService
     {
         var cart = await GetCartItems();
 
-        cart.Add(cartItem);
+        var itemInCart = cart.Find(i => i.ProductId == cartItem.ProductId && i.ProductTypeId == cartItem.ProductTypeId);
+        if (itemInCart is null)
+        {
+            cart.Add(cartItem);
+        }
+        else {
+            itemInCart.Quantity += cartItem.Quantity;
+        }
 
         await _localStorage.SetItemAsync<List<CartItem>>("cart", cart);
 
@@ -49,11 +56,29 @@ public class CartService : ICartService
 
         var cartItem = cartItems.Find(i => i.ProductId == productId && i.ProductTypeId == productTypeId);
 
+        if (cartItem is null) return;
+
         if (cartItem is not null)
         {
             cartItems.Remove(cartItem);
             await _localStorage.SetItemAsync<List<CartItem>>("cart", cartItems);
             OnChange.Invoke();
+        }
+    }
+
+    public async Task UpdateProductQuantity(CartProductResponse product)
+    {
+        var cartItems = await GetCartItems();
+
+        var cartItem = cartItems
+            .Find(i => i.ProductId == product.ProductId && i.ProductTypeId == product.ProductTypeId);
+
+        if (cartItem is null) return;
+
+        if (cartItem is not null)
+        {
+            cartItem.Quantity = product.Quantity;
+            await _localStorage.SetItemAsync<List<CartItem>>("cart", cartItems);
         }
     }
 }

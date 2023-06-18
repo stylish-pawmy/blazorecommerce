@@ -10,6 +10,7 @@
     private int GetCartItemCount()
     {
         var cart = LocalStorage.GetItem<List<CartItem>>("cart");
+        if (cart is null) return 0;
         return cart.Count;
     }
 

@@ -36,6 +36,10 @@
     .remove-button:hover[b-s16kd2ybat] {
         text-decoration: underline;
     }
+
+.input-quantity[b-s16kd2ybat] {
+    width: 70px;
+}
 /* /Pages/ProductDetails.razor.rz.scp.css */
 .media-img[b-3m969fu4wz] {
     max-width: 500px;

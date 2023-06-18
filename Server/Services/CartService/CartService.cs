@@ -34,7 +34,8 @@ public class CartService : ICartService
                 ImageUrl = product.ImageUrl,
                 Price = variant.Price,
                 ProductType = (variant.ProductType is null) ? string.Empty : variant.ProductType.Name,
-                ProductTypeId = variant.ProductTypeId
+                ProductTypeId = variant.ProductTypeId,
+                Quantity = item.Quantity
             };
 
             response.Data.Add(productResponse);

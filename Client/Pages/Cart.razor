@@ -1,6 +1,8 @@
 @page "/cart"
 @inject ICartService CartService
 
+<PageTitle>Cart</PageTitle>
+<h3>Shopping Cart</h3>
 @if (cartProducts == null || cartProducts.Count == 0)
 {
     <span>@message</span>
@@ -16,6 +18,12 @@ else {
                 <div class="name">
                     <h5><a href="/product/@product.ProductId">@product.Title</a></h5>
                     <span>@product.ProductType</span><br />
+                    <input type="text"
+                       value="@product.Quantity"
+                       @onchange="((ChangeEventArgs e) => UpdateProductCount(e, product))"
+                       class="form-control input-quantity"
+                       min="1"
+                       />
                     <button class="remove-button" @onclick="@(() =>
                         RemoveProductFromCart(@product.ProductId, @product.ProductTypeId))">
                         Delete
@@ -56,5 +64,13 @@ else {
         else {
             cartProducts = (await CartService.GetCartProducts()).Data;
         }
+    }
+
+    private async Task UpdateProductCount(ChangeEventArgs e, CartProductResponse product)
+    {
+        product.Quantity = int.Parse(e.Value.ToString());
+        if (product.Quantity < 1) product.Quantity = 1;
+        
+        await CartService.UpdateProductQuantity(product);
     }
 }
