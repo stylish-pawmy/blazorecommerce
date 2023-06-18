@@ -9,442 +9,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -937021870,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.App",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorEcommerce.Client",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -812750596,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.App",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorEcommerce.Client",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2095068780,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Counter",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1957052891,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Counter",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 288720512,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.FetchData",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1999816730,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.FetchData",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.FetchData",
-          "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1816369562,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Index",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoryUrl",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CategoryUrl",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "SearchText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "SearchText",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Page",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Page",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1427507105,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Index",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Pages.Index"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoryUrl",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CategoryUrl",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "SearchText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "SearchText",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Page",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Page",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2114540268,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.ProductDetails",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProductDetails"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.ProductDetails",
-          "Common.TypeNameIdentifier": "ProductDetails",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -259175233,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.ProductDetails",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Pages.ProductDetails"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.ProductDetails",
-          "Common.TypeNameIdentifier": "ProductDetails",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1234933049,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Cart",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Cart"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
-          "Common.TypeNameIdentifier": "Cart",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -129665130,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Cart",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Pages.Cart"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
-          "Common.TypeNameIdentifier": "Cart",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -758201647,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.Search",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Search"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.Search",
-          "Common.TypeNameIdentifier": "Search",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1620180493,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.Search",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.Search"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.Search",
-          "Common.TypeNameIdentifier": "Search",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1792386533,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1433536655,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 42494916,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FeaturedProducts"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
-          "Common.TypeNameIdentifier": "FeaturedProducts",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1563276292,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.FeaturedProducts"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
-          "Common.TypeNameIdentifier": "FeaturedProducts",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 655975435,
+        "HashCode": -2118178872,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.HomeButton",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -462,7 +27,7 @@
         }
       },
       {
-        "HashCode": -832432939,
+        "HashCode": 413459798,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.HomeButton",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -481,187 +46,44 @@
         }
       },
       {
-        "HashCode": -1022408294,
+        "HashCode": -2138085775,
         "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.MainLayout",
+        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
         "AssemblyName": "BlazorEcommerce.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
+            "TagName": "FeaturedProducts"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout",
-          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+          "Common.TypeNameIdentifier": "FeaturedProducts",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 259519268,
+        "HashCode": 1097792286,
         "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.MainLayout",
+        "Name": "BlazorEcommerce.Client.Shared.FeaturedProducts",
         "AssemblyName": "BlazorEcommerce.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorEcommerce.Client.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
+            "TagName": "BlazorEcommerce.Client.Shared.FeaturedProducts"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout",
-          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.FeaturedProducts",
+          "Common.TypeNameIdentifier": "FeaturedProducts",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1418728725,
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorEcommerce.Client.Shared.MainLayout.Body",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout.Body",
-          "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 74708979,
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorEcommerce.Client.Shared.MainLayout.Body",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "BlazorEcommerce.Client.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout.Body",
-          "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -1161502963,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.NavMenu",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -2032432367,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.NavMenu",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2084058354,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ProductList",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProductList"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
-          "Common.TypeNameIdentifier": "ProductList",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 8852517,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.ProductList",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.ProductList"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
-          "Common.TypeNameIdentifier": "ProductList",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1030648134,
+        "HashCode": 455668750,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.ShopLayout",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -692,7 +114,7 @@
         }
       },
       {
-        "HashCode": 27251858,
+        "HashCode": 324940863,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.ShopLayout",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -724,7 +146,7 @@
         }
       },
       {
-        "HashCode": -2010606917,
+        "HashCode": -1724052356,
         "Kind": "Components.ChildContent",
         "Name": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -745,7 +167,7 @@
         }
       },
       {
-        "HashCode": 605311517,
+        "HashCode": -1609869290,
         "Kind": "Components.ChildContent",
         "Name": "BlazorEcommerce.Client.Shared.ShopLayout.Body",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -767,7 +189,7 @@
         }
       },
       {
-        "HashCode": -1018627436,
+        "HashCode": -1550278988,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.ShopNavMenu",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -785,7 +207,7 @@
         }
       },
       {
-        "HashCode": -1042875538,
+        "HashCode": -1230030661,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.ShopNavMenu",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -804,7 +226,283 @@
         }
       },
       {
-        "HashCode": 578841243,
+        "HashCode": -584403163,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.NavMenu",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 980258631,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.NavMenu",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 270148589,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1295564122,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 101772054,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.MainLayout",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1726760047,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.MainLayout",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -828653580,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorEcommerce.Client.Shared.MainLayout.Body",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout.Body",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1532450054,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorEcommerce.Client.Shared.MainLayout.Body",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "BlazorEcommerce.Client.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.MainLayout.Body",
+          "Common.TypeNameIdentifier": "MainLayout",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -556829427,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.Search",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Search"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.Search",
+          "Common.TypeNameIdentifier": "Search",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -171510672,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.Search",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.Search"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.Search",
+          "Common.TypeNameIdentifier": "Search",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 42273614,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.ProductList",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductList"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
+          "Common.TypeNameIdentifier": "ProductList",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -150529290,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.ProductList",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.ProductList"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.ProductList",
+          "Common.TypeNameIdentifier": "ProductList",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1359790532,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.CartCounter",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -822,7 +520,7 @@
         }
       },
       {
-        "HashCode": -1572129509,
+        "HashCode": -89490760,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.CartCounter",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -841,7 +539,251 @@
         }
       },
       {
-        "HashCode": 1656307070,
+        "HashCode": 1893113730,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.ProductDetails",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.ProductDetails",
+          "Common.TypeNameIdentifier": "ProductDetails",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -72723729,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.ProductDetails",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.ProductDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.ProductDetails",
+          "Common.TypeNameIdentifier": "ProductDetails",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1095204475,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Counter",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1832013880,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Counter",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1221498577,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.FetchData",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -734135719,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.FetchData",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.FetchData",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1180297249,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Index",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -991806830,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Index",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1281759009,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Cart",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Cart"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
+          "Common.TypeNameIdentifier": "Cart",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1077398519,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Cart",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.Cart"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
+          "Common.TypeNameIdentifier": "Cart",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1493866845,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.App",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorEcommerce.Client",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 456490101,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.App",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorEcommerce.Client",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2003147119,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -916,7 +858,7 @@
         }
       },
       {
-        "HashCode": 758597697,
+        "HashCode": 649328525,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -992,7 +934,7 @@
         }
       },
       {
-        "HashCode": 1578198456,
+        "HashCode": -1465957376,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1013,7 +955,7 @@
         }
       },
       {
-        "HashCode": 1683901129,
+        "HashCode": -970961835,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1035,7 +977,7 @@
         }
       },
       {
-        "HashCode": -535087678,
+        "HashCode": 1195453882,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1077,7 +1019,7 @@
         }
       },
       {
-        "HashCode": 500496581,
+        "HashCode": 194220038,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1120,7 +1062,7 @@
         }
       },
       {
-        "HashCode": 137369720,
+        "HashCode": 886462498,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1162,7 +1104,7 @@
         }
       },
       {
-        "HashCode": -617799297,
+        "HashCode": -1219593941,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1205,7 +1147,7 @@
         }
       },
       {
-        "HashCode": -1212876319,
+        "HashCode": 185296131,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1226,7 +1168,7 @@
         }
       },
       {
-        "HashCode": -396395344,
+        "HashCode": -1664079797,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1248,7 +1190,7 @@
         }
       },
       {
-        "HashCode": -1624739113,
+        "HashCode": 859763970,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1290,7 +1232,7 @@
         }
       },
       {
-        "HashCode": 1692271187,
+        "HashCode": -1642322168,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1333,7 +1275,7 @@
         }
       },
       {
-        "HashCode": 1668593836,
+        "HashCode": 1776147617,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1441,7 +1383,7 @@
         }
       },
       {
-        "HashCode": 1560479101,
+        "HashCode": -627001053,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1550,7 +1492,7 @@
         }
       },
       {
-        "HashCode": 1840400603,
+        "HashCode": -1303309762,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1571,7 +1513,7 @@
         }
       },
       {
-        "HashCode": 1104795214,
+        "HashCode": 1258848465,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1593,7 +1535,7 @@
         }
       },
       {
-        "HashCode": 2052746060,
+        "HashCode": 1071467382,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1626,7 +1568,7 @@
         }
       },
       {
-        "HashCode": 1691183543,
+        "HashCode": 427428189,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1660,7 +1602,7 @@
         }
       },
       {
-        "HashCode": 2024422518,
+        "HashCode": 1649739275,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1681,7 +1623,7 @@
         }
       },
       {
-        "HashCode": 1082376256,
+        "HashCode": -2001192121,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1703,7 +1645,7 @@
         }
       },
       {
-        "HashCode": 613660674,
+        "HashCode": -1559562431,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1722,7 +1664,7 @@
         }
       },
       {
-        "HashCode": 1869430147,
+        "HashCode": 39419140,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1742,7 +1684,7 @@
         }
       },
       {
-        "HashCode": 1734211509,
+        "HashCode": 1267619118,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1847,7 +1789,7 @@
         }
       },
       {
-        "HashCode": 22868265,
+        "HashCode": -483150354,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1953,7 +1895,7 @@
         }
       },
       {
-        "HashCode": 1496479464,
+        "HashCode": -654140397,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1986,7 +1928,7 @@
         }
       },
       {
-        "HashCode": -283321460,
+        "HashCode": -1575262776,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2020,7 +1962,7 @@
         }
       },
       {
-        "HashCode": -1084211215,
+        "HashCode": -285427267,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2092,7 +2034,7 @@
         }
       },
       {
-        "HashCode": -1270286934,
+        "HashCode": -1554776742,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2165,7 +2107,7 @@
         }
       },
       {
-        "HashCode": 1810258098,
+        "HashCode": 1073050538,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2273,7 +2215,7 @@
         }
       },
       {
-        "HashCode": 1046568365,
+        "HashCode": 699280732,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2382,7 +2324,7 @@
         }
       },
       {
-        "HashCode": 505890402,
+        "HashCode": -840007616,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2424,7 +2366,7 @@
         }
       },
       {
-        "HashCode": -973865127,
+        "HashCode": 123554708,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2467,7 +2409,7 @@
         }
       },
       {
-        "HashCode": 2011293673,
+        "HashCode": 960993965,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2564,7 +2506,7 @@
         }
       },
       {
-        "HashCode": 226955949,
+        "HashCode": -1426565334,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2662,7 +2604,7 @@
         }
       },
       {
-        "HashCode": -263933616,
+        "HashCode": -924973487,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2726,7 +2668,7 @@
         }
       },
       {
-        "HashCode": 447058926,
+        "HashCode": 1156815128,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2791,7 +2733,7 @@
         }
       },
       {
-        "HashCode": 1340680437,
+        "HashCode": 416617545,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2899,7 +2841,7 @@
         }
       },
       {
-        "HashCode": -1622045199,
+        "HashCode": -645349728,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3008,7 +2950,7 @@
         }
       },
       {
-        "HashCode": -1577055253,
+        "HashCode": -2013249340,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3029,7 +2971,7 @@
         }
       },
       {
-        "HashCode": 1939894770,
+        "HashCode": 1735731733,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3051,7 +2993,7 @@
         }
       },
       {
-        "HashCode": -1719827193,
+        "HashCode": 363342341,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3149,7 +3091,7 @@
         }
       },
       {
-        "HashCode": 995167151,
+        "HashCode": 468507386,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3248,7 +3190,7 @@
         }
       },
       {
-        "HashCode": -538199189,
+        "HashCode": -828163697,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3269,7 +3211,7 @@
         }
       },
       {
-        "HashCode": -1976664387,
+        "HashCode": 617447501,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3291,7 +3233,7 @@
         }
       },
       {
-        "HashCode": -839944777,
+        "HashCode": -745564122,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3363,7 +3305,7 @@
         }
       },
       {
-        "HashCode": -1995659580,
+        "HashCode": 630512860,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3436,7 +3378,7 @@
         }
       },
       {
-        "HashCode": -949059962,
+        "HashCode": 1754560051,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3508,7 +3450,7 @@
         }
       },
       {
-        "HashCode": 1212024730,
+        "HashCode": 1829291821,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3581,7 +3523,7 @@
         }
       },
       {
-        "HashCode": -762948358,
+        "HashCode": 683203564,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3635,7 +3577,7 @@
         }
       },
       {
-        "HashCode": 2140909717,
+        "HashCode": -1966693581,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3690,7 +3632,7 @@
         }
       },
       {
-        "HashCode": 1166560758,
+        "HashCode": -1187123480,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3731,7 +3673,7 @@
         }
       },
       {
-        "HashCode": 12431934,
+        "HashCode": 1281456526,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3773,7 +3715,7 @@
         }
       },
       {
-        "HashCode": -108199045,
+        "HashCode": -1498400192,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3814,7 +3756,7 @@
         }
       },
       {
-        "HashCode": -822956254,
+        "HashCode": -1101375744,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3856,7 +3798,7 @@
         }
       },
       {
-        "HashCode": 677346113,
+        "HashCode": 1561360495,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3898,7 +3840,7 @@
         }
       },
       {
-        "HashCode": -422084766,
+        "HashCode": 715529019,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3941,7 +3883,7 @@
         }
       },
       {
-        "HashCode": -1793203149,
+        "HashCode": -1897242845,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4004,7 +3946,7 @@
         }
       },
       {
-        "HashCode": -1314473000,
+        "HashCode": 773494909,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4068,7 +4010,7 @@
         }
       },
       {
-        "HashCode": 532583497,
+        "HashCode": 366477078,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4089,7 +4031,7 @@
         }
       },
       {
-        "HashCode": 260575989,
+        "HashCode": 844123236,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4111,7 +4053,7 @@
         }
       },
       {
-        "HashCode": -963301947,
+        "HashCode": -2091557973,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4143,7 +4085,7 @@
         }
       },
       {
-        "HashCode": 577292316,
+        "HashCode": -1413658943,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4176,7 +4118,7 @@
         }
       },
       {
-        "HashCode": 1425428552,
+        "HashCode": 312144553,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4197,7 +4139,7 @@
         }
       },
       {
-        "HashCode": -601877551,
+        "HashCode": -1977500147,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4219,7 +4161,7 @@
         }
       },
       {
-        "HashCode": -624704719,
+        "HashCode": -619308405,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4238,7 +4180,7 @@
         }
       },
       {
-        "HashCode": 212411271,
+        "HashCode": -1744003211,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4258,7 +4200,7 @@
         }
       },
       {
-        "HashCode": 1624965490,
+        "HashCode": -1994968148,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4290,7 +4232,7 @@
         }
       },
       {
-        "HashCode": 1629926341,
+        "HashCode": -216388010,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4323,7 +4265,7 @@
         }
       },
       {
-        "HashCode": -802514272,
+        "HashCode": 1041649095,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4344,7 +4286,7 @@
         }
       },
       {
-        "HashCode": -1341553061,
+        "HashCode": -489359701,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4366,7 +4308,7 @@
         }
       },
       {
-        "HashCode": 1497188105,
+        "HashCode": -529812084,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4429,7 +4371,7 @@
         }
       },
       {
-        "HashCode": -1183745595,
+        "HashCode": 1191610729,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4493,7 +4435,7 @@
         }
       },
       {
-        "HashCode": -1669504594,
+        "HashCode": -1964973044,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4514,7 +4456,7 @@
         }
       },
       {
-        "HashCode": 380328818,
+        "HashCode": -47243513,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4536,7 +4478,7 @@
         }
       },
       {
-        "HashCode": -828177226,
+        "HashCode": -930214785,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4569,7 +4511,7 @@
         }
       },
       {
-        "HashCode": -275990657,
+        "HashCode": -1357817503,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4603,7 +4545,7 @@
         }
       },
       {
-        "HashCode": 1635362610,
+        "HashCode": 1151182187,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4735,7 +4677,7 @@
         }
       },
       {
-        "HashCode": -486797932,
+        "HashCode": -407583512,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4868,7 +4810,7 @@
         }
       },
       {
-        "HashCode": 1862578100,
+        "HashCode": -309479985,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4901,7 +4843,7 @@
         }
       },
       {
-        "HashCode": 284193979,
+        "HashCode": -970421392,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4935,7 +4877,7 @@
         }
       },
       {
-        "HashCode": 1778466943,
+        "HashCode": -1560265178,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4968,7 +4910,7 @@
         }
       },
       {
-        "HashCode": 900853866,
+        "HashCode": -130384201,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5002,7 +4944,7 @@
         }
       },
       {
-        "HashCode": -1865317610,
+        "HashCode": -1969823678,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5035,7 +4977,7 @@
         }
       },
       {
-        "HashCode": 213015398,
+        "HashCode": 155736743,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5069,7 +5011,7 @@
         }
       },
       {
-        "HashCode": 286871056,
+        "HashCode": 605901511,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5152,7 +5094,7 @@
         }
       },
       {
-        "HashCode": 927978261,
+        "HashCode": 1369101849,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5235,7 +5177,7 @@
         }
       },
       {
-        "HashCode": 648297202,
+        "HashCode": 257075114,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5318,7 +5260,7 @@
         }
       },
       {
-        "HashCode": 393407309,
+        "HashCode": 1548899882,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5401,7 +5343,7 @@
         }
       },
       {
-        "HashCode": 385706095,
+        "HashCode": 1202682993,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5484,7 +5426,7 @@
         }
       },
       {
-        "HashCode": 1591749727,
+        "HashCode": 1895164820,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5567,7 +5509,7 @@
         }
       },
       {
-        "HashCode": -160384456,
+        "HashCode": 661719979,
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5650,7 +5592,7 @@
         }
       },
       {
-        "HashCode": 149298537,
+        "HashCode": -30586737,
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5733,7 +5675,7 @@
         }
       },
       {
-        "HashCode": -155866512,
+        "HashCode": 1204308667,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5816,7 +5758,7 @@
         }
       },
       {
-        "HashCode": -482122041,
+        "HashCode": 1338420005,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5899,7 +5841,7 @@
         }
       },
       {
-        "HashCode": -1377316081,
+        "HashCode": 2012329242,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5982,7 +5924,7 @@
         }
       },
       {
-        "HashCode": 322233268,
+        "HashCode": -81284641,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6065,7 +6007,7 @@
         }
       },
       {
-        "HashCode": -1241626848,
+        "HashCode": -1810546493,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6148,7 +6090,7 @@
         }
       },
       {
-        "HashCode": 74655298,
+        "HashCode": -785768490,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6231,7 +6173,7 @@
         }
       },
       {
-        "HashCode": 717656688,
+        "HashCode": 277400156,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6314,7 +6256,7 @@
         }
       },
       {
-        "HashCode": -133582815,
+        "HashCode": 1224710634,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6397,7 +6339,7 @@
         }
       },
       {
-        "HashCode": -1323227719,
+        "HashCode": -1930101669,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6480,7 +6422,7 @@
         }
       },
       {
-        "HashCode": -772347593,
+        "HashCode": 1193735619,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6563,7 +6505,7 @@
         }
       },
       {
-        "HashCode": 1389081269,
+        "HashCode": -1681535798,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6646,7 +6588,7 @@
         }
       },
       {
-        "HashCode": -292950240,
+        "HashCode": 1333234731,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6729,7 +6671,7 @@
         }
       },
       {
-        "HashCode": 2076967788,
+        "HashCode": 1376712967,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6812,7 +6754,7 @@
         }
       },
       {
-        "HashCode": -1849584539,
+        "HashCode": -411867507,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6895,7 +6837,7 @@
         }
       },
       {
-        "HashCode": 1872461280,
+        "HashCode": -1116194016,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6978,7 +6920,7 @@
         }
       },
       {
-        "HashCode": -1813900621,
+        "HashCode": 385251577,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7061,7 +7003,7 @@
         }
       },
       {
-        "HashCode": 479512709,
+        "HashCode": 1748470267,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7144,7 +7086,7 @@
         }
       },
       {
-        "HashCode": 521422988,
+        "HashCode": 106895855,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7227,7 +7169,7 @@
         }
       },
       {
-        "HashCode": -1135357755,
+        "HashCode": 854049471,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7310,7 +7252,7 @@
         }
       },
       {
-        "HashCode": -1020799126,
+        "HashCode": -1625119900,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7393,7 +7335,7 @@
         }
       },
       {
-        "HashCode": -24983050,
+        "HashCode": -1456446572,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7476,7 +7418,7 @@
         }
       },
       {
-        "HashCode": 449516325,
+        "HashCode": -1482913802,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7559,7 +7501,7 @@
         }
       },
       {
-        "HashCode": -671184657,
+        "HashCode": -484108010,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7642,7 +7584,7 @@
         }
       },
       {
-        "HashCode": -611544863,
+        "HashCode": -2025304349,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7725,7 +7667,7 @@
         }
       },
       {
-        "HashCode": 308291014,
+        "HashCode": -1015996530,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7808,7 +7750,7 @@
         }
       },
       {
-        "HashCode": 329499014,
+        "HashCode": -995369216,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7891,7 +7833,7 @@
         }
       },
       {
-        "HashCode": 613322876,
+        "HashCode": 955015095,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7974,7 +7916,7 @@
         }
       },
       {
-        "HashCode": 659829791,
+        "HashCode": 1348712601,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8057,7 +7999,7 @@
         }
       },
       {
-        "HashCode": 631942663,
+        "HashCode": 229970579,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8140,7 +8082,7 @@
         }
       },
       {
-        "HashCode": 137699730,
+        "HashCode": 1380056236,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8223,7 +8165,7 @@
         }
       },
       {
-        "HashCode": -1079881641,
+        "HashCode": -459166482,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8306,7 +8248,7 @@
         }
       },
       {
-        "HashCode": -46830639,
+        "HashCode": -1606629808,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8389,7 +8331,7 @@
         }
       },
       {
-        "HashCode": 415036305,
+        "HashCode": -1132750424,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8472,7 +8414,7 @@
         }
       },
       {
-        "HashCode": 1851108704,
+        "HashCode": 139721460,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8555,7 +8497,7 @@
         }
       },
       {
-        "HashCode": 632796708,
+        "HashCode": 1467502996,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8638,7 +8580,7 @@
         }
       },
       {
-        "HashCode": 933434036,
+        "HashCode": 1950219121,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8721,7 +8663,7 @@
         }
       },
       {
-        "HashCode": -424647499,
+        "HashCode": -1673352366,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8804,7 +8746,7 @@
         }
       },
       {
-        "HashCode": 2049313435,
+        "HashCode": 118262316,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8887,7 +8829,7 @@
         }
       },
       {
-        "HashCode": 1870009516,
+        "HashCode": -1371008991,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8970,7 +8912,7 @@
         }
       },
       {
-        "HashCode": -737256358,
+        "HashCode": 1667177940,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9053,7 +8995,7 @@
         }
       },
       {
-        "HashCode": 1202102381,
+        "HashCode": 365893747,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9136,7 +9078,7 @@
         }
       },
       {
-        "HashCode": 1898544466,
+        "HashCode": 325800887,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9219,7 +9161,7 @@
         }
       },
       {
-        "HashCode": 1027731758,
+        "HashCode": 1079738308,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9302,7 +9244,7 @@
         }
       },
       {
-        "HashCode": -767993441,
+        "HashCode": 654038887,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9385,7 +9327,7 @@
         }
       },
       {
-        "HashCode": 38239251,
+        "HashCode": -662226616,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9468,7 +9410,7 @@
         }
       },
       {
-        "HashCode": 263435807,
+        "HashCode": 75424374,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9551,7 +9493,7 @@
         }
       },
       {
-        "HashCode": 1957111662,
+        "HashCode": 1555265297,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9634,7 +9576,7 @@
         }
       },
       {
-        "HashCode": -943916107,
+        "HashCode": -58895160,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9717,7 +9659,7 @@
         }
       },
       {
-        "HashCode": -478107812,
+        "HashCode": -120308421,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9800,7 +9742,7 @@
         }
       },
       {
-        "HashCode": -1522794701,
+        "HashCode": -554127236,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9883,7 +9825,7 @@
         }
       },
       {
-        "HashCode": -440533702,
+        "HashCode": 989080662,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9966,7 +9908,7 @@
         }
       },
       {
-        "HashCode": -1501886589,
+        "HashCode": -1743285040,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10049,7 +9991,7 @@
         }
       },
       {
-        "HashCode": 1651884841,
+        "HashCode": -747991164,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10132,7 +10074,7 @@
         }
       },
       {
-        "HashCode": 2083229103,
+        "HashCode": -1615613137,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10215,7 +10157,7 @@
         }
       },
       {
-        "HashCode": 1136129363,
+        "HashCode": -1120144548,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10298,7 +10240,7 @@
         }
       },
       {
-        "HashCode": 1466417378,
+        "HashCode": 1172201046,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10381,7 +10323,7 @@
         }
       },
       {
-        "HashCode": -2028275960,
+        "HashCode": 1394778470,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10464,7 +10406,7 @@
         }
       },
       {
-        "HashCode": -564808815,
+        "HashCode": 367417920,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10547,7 +10489,7 @@
         }
       },
       {
-        "HashCode": -1920292466,
+        "HashCode": -783217380,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10630,7 +10572,7 @@
         }
       },
       {
-        "HashCode": -302955487,
+        "HashCode": -873602544,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10713,7 +10655,7 @@
         }
       },
       {
-        "HashCode": 1111384835,
+        "HashCode": -243171386,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10796,7 +10738,7 @@
         }
       },
       {
-        "HashCode": 1736397297,
+        "HashCode": 1717516194,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10879,7 +10821,7 @@
         }
       },
       {
-        "HashCode": 1041727092,
+        "HashCode": 1983809054,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10962,7 +10904,7 @@
         }
       },
       {
-        "HashCode": -1587811335,
+        "HashCode": 535840601,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11045,7 +10987,7 @@
         }
       },
       {
-        "HashCode": 1312847176,
+        "HashCode": -339448456,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11128,7 +11070,7 @@
         }
       },
       {
-        "HashCode": -311437598,
+        "HashCode": -2100597837,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11211,7 +11153,7 @@
         }
       },
       {
-        "HashCode": 2114619669,
+        "HashCode": 712317024,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11294,7 +11236,7 @@
         }
       },
       {
-        "HashCode": -1478293573,
+        "HashCode": 275679015,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11377,7 +11319,7 @@
         }
       },
       {
-        "HashCode": -1228331526,
+        "HashCode": -1743648126,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11460,7 +11402,7 @@
         }
       },
       {
-        "HashCode": -1710496674,
+        "HashCode": -1679625024,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11543,7 +11485,7 @@
         }
       },
       {
-        "HashCode": 1069504533,
+        "HashCode": 371335250,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11626,7 +11568,7 @@
         }
       },
       {
-        "HashCode": -1359656587,
+        "HashCode": -331623608,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11709,7 +11651,7 @@
         }
       },
       {
-        "HashCode": -206132202,
+        "HashCode": -1854780116,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11792,7 +11734,7 @@
         }
       },
       {
-        "HashCode": 1158651981,
+        "HashCode": -2070095706,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11875,7 +11817,7 @@
         }
       },
       {
-        "HashCode": 1985314780,
+        "HashCode": -1103468810,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11958,7 +11900,7 @@
         }
       },
       {
-        "HashCode": 1018234187,
+        "HashCode": 1111987295,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12041,7 +11983,7 @@
         }
       },
       {
-        "HashCode": 873468750,
+        "HashCode": 462545262,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12124,7 +12066,7 @@
         }
       },
       {
-        "HashCode": 916402803,
+        "HashCode": 1884254246,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12207,7 +12149,7 @@
         }
       },
       {
-        "HashCode": 1400447850,
+        "HashCode": -731832265,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12290,7 +12232,7 @@
         }
       },
       {
-        "HashCode": -208094362,
+        "HashCode": -1664388371,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12373,7 +12315,7 @@
         }
       },
       {
-        "HashCode": -221312687,
+        "HashCode": -775814705,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12456,7 +12398,7 @@
         }
       },
       {
-        "HashCode": -1781898134,
+        "HashCode": 1114109961,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12539,7 +12481,7 @@
         }
       },
       {
-        "HashCode": 1837593897,
+        "HashCode": 1960897968,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12622,7 +12564,7 @@
         }
       },
       {
-        "HashCode": -2076628502,
+        "HashCode": -1738367991,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12705,7 +12647,7 @@
         }
       },
       {
-        "HashCode": 111011395,
+        "HashCode": -1460099704,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12788,7 +12730,7 @@
         }
       },
       {
-        "HashCode": 1804544737,
+        "HashCode": -1454661028,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12871,7 +12813,7 @@
         }
       },
       {
-        "HashCode": -1706741653,
+        "HashCode": 1730030370,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12910,7 +12852,7 @@
         }
       },
       {
-        "HashCode": 1211732699,
+        "HashCode": -502776680,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13006,7 +12948,7 @@
         }
       },
       {
-        "HashCode": -1523086834,
+        "HashCode": 934354745,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13128,7 +13070,7 @@
         }
       },
       {
-        "HashCode": 1895222421,
+        "HashCode": 831085186,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13250,7 +13192,7 @@
         }
       },
       {
-        "HashCode": -614261872,
+        "HashCode": -1723362506,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13383,7 +13325,7 @@
         }
       },
       {
-        "HashCode": 456473766,
+        "HashCode": 834089770,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13516,7 +13458,7 @@
         }
       },
       {
-        "HashCode": 952537171,
+        "HashCode": 1318159008,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13649,7 +13591,7 @@
         }
       },
       {
-        "HashCode": -1932952318,
+        "HashCode": 388387268,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13782,7 +13724,7 @@
         }
       },
       {
-        "HashCode": 1330064632,
+        "HashCode": -1260144194,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13915,7 +13857,7 @@
         }
       },
       {
-        "HashCode": -1606937538,
+        "HashCode": -991408181,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14048,7 +13990,7 @@
         }
       },
       {
-        "HashCode": -427760036,
+        "HashCode": -874378512,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14181,7 +14123,7 @@
         }
       },
       {
-        "HashCode": -836306344,
+        "HashCode": -1318383583,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14314,7 +14256,7 @@
         }
       },
       {
-        "HashCode": 2104093718,
+        "HashCode": -1227269003,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14447,7 +14389,7 @@
         }
       },
       {
-        "HashCode": -614233310,
+        "HashCode": -2045874702,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14580,7 +14522,7 @@
         }
       },
       {
-        "HashCode": -325628780,
+        "HashCode": -1907567157,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14713,7 +14655,7 @@
         }
       },
       {
-        "HashCode": 152019082,
+        "HashCode": -1600811855,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14846,7 +14788,7 @@
         }
       },
       {
-        "HashCode": 776380141,
+        "HashCode": 1107760924,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14968,7 +14910,7 @@
         }
       },
       {
-        "HashCode": 415058807,
+        "HashCode": 403154844,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15090,7 +15032,7 @@
         }
       },
       {
-        "HashCode": 1768477497,
+        "HashCode": 1385515997,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15177,7 +15119,7 @@
         }
       },
       {
-        "HashCode": 1883103481,
+        "HashCode": 2100813779,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15265,7 +15207,7 @@
         }
       },
       {
-        "HashCode": -798136148,
+        "HashCode": -1493598364,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15352,7 +15294,7 @@
         }
       },
       {
-        "HashCode": 1418525319,
+        "HashCode": -972913880,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15440,7 +15382,7 @@
         }
       },
       {
-        "HashCode": 1793344068,
+        "HashCode": -1449524951,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15527,7 +15469,7 @@
         }
       },
       {
-        "HashCode": -1238039177,
+        "HashCode": -1672667607,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15615,7 +15557,7 @@
         }
       },
       {
-        "HashCode": 505772972,
+        "HashCode": 733140037,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15702,7 +15644,7 @@
         }
       },
       {
-        "HashCode": 2020608598,
+        "HashCode": 1882757556,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15790,7 +15732,7 @@
         }
       },
       {
-        "HashCode": 124437116,
+        "HashCode": 496149263,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15877,7 +15819,7 @@
         }
       },
       {
-        "HashCode": 875927695,
+        "HashCode": -661341597,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15965,7 +15907,7 @@
         }
       },
       {
-        "HashCode": 1661644039,
+        "HashCode": -1019402193,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16052,7 +15994,7 @@
         }
       },
       {
-        "HashCode": 650750603,
+        "HashCode": -183751205,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16140,7 +16082,7 @@
         }
       },
       {
-        "HashCode": -1069734639,
+        "HashCode": -947741938,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16227,7 +16169,7 @@
         }
       },
       {
-        "HashCode": 869575362,
+        "HashCode": -1837568363,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -16315,7 +16257,7 @@
         }
       },
       {
-        "HashCode": -1087789230,
+        "HashCode": -1855232405,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16354,7 +16296,7 @@
         }
       },
       {
-        "HashCode": -502148909,
+        "HashCode": -1344923936,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16398,38 +16340,18 @@
   "RootNamespace": "BlazorEcommerce.Client",
   "Documents": [
     {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/FeaturedProducts.razor",
-      "TargetPath": "Shared\\FeaturedProducts.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/CartCounter.razor",
-      "TargetPath": "Shared\\CartCounter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ProductList.razor",
-      "TargetPath": "Shared\\ProductList.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/HomeButton.razor",
       "TargetPath": "Shared\\HomeButton.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/Search.razor",
-      "TargetPath": "Shared\\Search.razor",
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/ProductDetails.razor",
+      "TargetPath": "Pages\\ProductDetails.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/FeaturedProducts.razor",
+      "TargetPath": "Shared\\FeaturedProducts.razor",
       "FileKind": "component"
     },
     {
@@ -16443,6 +16365,26 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ShopNavMenu.razor",
+      "TargetPath": "Shared\\ShopNavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ProductList.razor",
+      "TargetPath": "Shared\\ProductList.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
@@ -16453,18 +16395,13 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Cart.razor",
-      "TargetPath": "Pages\\Cart.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/ProductDetails.razor",
-      "TargetPath": "Pages\\ProductDetails.razor",
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/CartCounter.razor",
+      "TargetPath": "Shared\\CartCounter.razor",
       "FileKind": "component"
     },
     {
@@ -16473,13 +16410,18 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Index.razor",
+      "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ShopNavMenu.razor",
-      "TargetPath": "Shared\\ShopNavMenu.razor",
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/Search.razor",
+      "TargetPath": "Shared\\Search.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Cart.razor",
+      "TargetPath": "Pages\\Cart.razor",
       "FileKind": "component"
     }
   ],
