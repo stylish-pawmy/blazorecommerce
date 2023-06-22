@@ -433,3 +433,19 @@ main[b-qvu4gnldhm] {
         display: block;
     }
 }
+/* /Shared/UserButton.razor.rz.scp.css */
+.show-menu[b-3vyitthtu7] {
+    display: block;
+}
+
+.user-button[b-3vyitthtu7] {
+    margin-left: .5em;
+}
+
+.dropdown-item:hover[b-3vyitthtu7] {
+    margin-left: 0;
+}
+
+.top-row a[b-3vyitthtu7] {
+    margin-left: 0;
+}
