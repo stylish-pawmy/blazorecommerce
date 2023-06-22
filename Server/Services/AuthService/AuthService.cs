@@ -1,14 +1,19 @@
 using System.Security.Cryptography;
+using System.Security.Claims;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace BlazorEcommerce.Server.Services.AuthService;
 
 public class AuthService : IAuthService
 {
     private readonly ApplicationDbContext _context;
+    private readonly IConfiguration _config;
 
-    public AuthService(ApplicationDbContext context)
+    public AuthService(ApplicationDbContext context, IConfiguration config)
     {
         _context = context;
+        _config = config;
     }
 
     public async Task<ServiceResponse<int>> Register(User user, string password)
@@ -31,6 +36,31 @@ public class AuthService : IAuthService
         return new ServiceResponse<int> { Data = user.Id, Message = "Register Success!"};
     }
 
+    public async Task<ServiceResponse<string>> Login(string email, string password)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email.ToLower().Equals(email.ToLower()));
+
+        var response = new ServiceResponse<string>();
+
+        if (user is null)
+        {
+            response.Success = false;
+            response.Message = "User not found";
+        }
+        else if (!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
+        {
+            response.Success = false;
+            response.Message = "Wrong password.";
+        }
+        else
+        {
+            response.Data = CreateJsonWebToken(user);
+            response.Message = "Token issued";
+        }
+
+        return response;
+    }
+
     public async Task<bool> UserExists(string email)
     {
         return await
@@ -45,4 +75,37 @@ public class AuthService : IAuthService
             passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
         }
     }
+
+    public bool VerifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
+    {
+        using (var hmac = new HMACSHA512(passwordSalt))
+        {
+            var compareHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+            return passwordHash.SequenceEqual(compareHash);
+        }
+    }
+
+    public string CreateJsonWebToken(User user)
+    {
+        List<Claim> claims = new List<Claim> {
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+            new Claim(ClaimTypes.Email, user.Email)
+        };
+
+        var key = new SymmetricSecurityKey(
+            System.Text.Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:Token").Value));
+        
+        var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+
+        var token = new JwtSecurityToken(
+            claims: claims,
+            expires: DateTime.Now + TimeSpan.FromDays(3),
+            signingCredentials: credentials
+        );
+
+        var Jwt = new JwtSecurityTokenHandler().WriteToken(token);
+
+        return Jwt;
+    }
+
 }

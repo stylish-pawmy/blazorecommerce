@@ -68,3 +68,8 @@
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/System.CodeDom.dll
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Blazored.LocalStorage.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
