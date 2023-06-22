@@ -1,4 +1,5 @@
 @page "/register"
+@inject IAuthService AuthService
 
 <EditForm Model="user" OnValidSubmit="HandleRegister">
     <DataAnnotationsValidator />
@@ -18,12 +19,23 @@
         <ValidationMessage For=@(() => user.ConfirmPassword) />
     </div>
     <button type="submit" class="btn btn-primary">Register</button>
+    <div>
+        <span class="@messageCssClass">@message</span>
+    </div>
 </EditForm>
 
 @code {
     UserRegister user = new UserRegister();
-    private void HandleRegister()
+    string message = string.Empty;
+    string messageCssClass = string.Empty;
+    private async Task HandleRegister()
     {
-        Console.WriteLine($"Registered user with email {user.Email}");
+        var response = await AuthService.Register(user);
+        
+        message = response.Message;
+        if (response.Success)
+            messageCssClass = "text-success";
+        else
+            messageCssClass = "text-danger";
     }
 }
