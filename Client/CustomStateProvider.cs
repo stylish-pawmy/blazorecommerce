@@ -21,7 +21,7 @@ public class CustomStateProvider : AuthenticationStateProvider
         var identity = new ClaimsIdentity();
         _http.DefaultRequestHeaders.Authorization = null;
 
-        if (token is not null)
+        if (!string.IsNullOrEmpty(token))
         {
             try {
                 IEnumerable<Claim> claims = ParseClaimsFromJwt(token);
@@ -36,8 +36,11 @@ public class CustomStateProvider : AuthenticationStateProvider
         }
 
         var user = new ClaimsPrincipal(identity);
-        
-        return new AuthenticationState(user);
+        var state = new AuthenticationState(user);
+
+        NotifyAuthenticationStateChanged(Task.FromResult(state));
+
+        return state;
     }
 
     private byte[] ParseBase64WithoutPadding(string base64)

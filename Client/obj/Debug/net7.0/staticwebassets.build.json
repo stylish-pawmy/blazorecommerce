@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1iHOB4M0qWGIhDXi1NCvhfnkS9NWblGfkf/T2VCm9BY=",
+  "Hash": "OhPquMzpeaapCp2VNeFDbwZCwjKLiFbMBqJ5SnXjOhs=",
   "Source": "BlazorEcommerce.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -269,7 +269,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.aspnetcore.authorization/7.0.7/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "BlazorEcommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.aspnetcore.components.authorization/7.0.7/lib/net7.0/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
@@ -286,7 +303,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.aspnetcore.components/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.aspnetcore.components/7.0.7/lib/net7.0/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
@@ -354,7 +371,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.aspnetcore.metadata/7.0.5/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.aspnetcore.metadata/7.0.7/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -558,7 +575,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "/home/pawmy/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll",
@@ -3859,6 +3876,23 @@
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/System.Threading.Thread.dll"
     },
     {
+      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/2DrFxgsK.gz",
+      "SourceId": "BlazorEcommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/2WJA8thJ.gz",
       "SourceId": "BlazorEcommerce.Client",
       "SourceType": "Computed",
@@ -4061,23 +4095,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/System.Xml.dll"
-    },
-    {
-      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/8N+mXOnB.gz",
-      "SourceId": "BlazorEcommerce.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/8X62w67m.gz",
@@ -5066,6 +5083,23 @@
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/System.Private.Xml.Linq.dll"
     },
     {
+      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/IgFwKFVJ.gz",
+      "SourceId": "BlazorEcommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/ijoHgncp.gz",
       "SourceId": "BlazorEcommerce.Client",
       "SourceType": "Computed",
@@ -5219,6 +5253,23 @@
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll"
     },
     {
+      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/K00PI0ZA.gz",
+      "SourceId": "BlazorEcommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/KDOuiKwh.gz",
       "SourceId": "BlazorEcommerce.Client",
       "SourceType": "Computed",
@@ -5355,23 +5406,6 @@
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/System.Collections.Immutable.dll"
     },
     {
-      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/l338OjxF.gz",
-      "SourceId": "BlazorEcommerce.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/LfPI8x21.gz",
       "SourceId": "BlazorEcommerce.Client",
       "SourceType": "Computed",
@@ -5421,6 +5455,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XPath.dll"
+    },
+    {
+      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/LsTtjFVr.gz",
+      "SourceId": "BlazorEcommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/m6STDaP1.gz",
@@ -6120,6 +6171,23 @@
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
+      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/SVV+W27q.gz",
+      "SourceId": "BlazorEcommerce.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/SyTeymMp.gz",
       "SourceId": "BlazorEcommerce.Client",
       "SourceType": "Computed",
@@ -6203,23 +6271,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/System.Security.Cryptography.dll"
-    },
-    {
-      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/twsVoR+f.gz",
-      "SourceId": "BlazorEcommerce.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/tZ5YQfjG.gz",
@@ -6900,23 +6951,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/System.IO.FileSystem.dll"
-    },
-    {
-      "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/zGKB57KG.gz",
-      "SourceId": "BlazorEcommerce.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/zjlh1VOT.gz",

@@ -13,8 +13,12 @@
         "packagesPath": "/home/pawmy/.nuget/packages/",
         "outputPath": "/home/pawmy/Projects/BlazorEcommerce/Shared/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/home/pawmy/.local/share/godot/mono/GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/pawmy/.nuget/NuGet/NuGet.Config"
+          "/home/pawmy/.nuget/NuGet/NuGet.Config",
+          "/home/pawmy/.nuget/NuGet/config/Godot.Offline.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
