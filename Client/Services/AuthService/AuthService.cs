@@ -9,6 +9,12 @@ public class AuthService : IAuthService
         _http = http;
     }
 
+    public async Task<ServiceResponse<bool>> ChangePassword(ChangePassword request)
+    {
+        var response = await _http.PostAsJsonAsync<string>("api/auth/change-password", request.Password);
+        return await response.Content.ReadFromJsonAsync<ServiceResponse<bool>>();
+    }
+
     public async Task<ServiceResponse<string>> Login(UserLogin request)
     {
         var response = await _http.PostAsJsonAsync<UserLogin>("api/auth/login", request);

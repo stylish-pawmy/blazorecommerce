@@ -75,3 +75,6 @@
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Authorization.dll
 /home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/home/pawmy/Projects/BlazorEcommerce/Server/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
