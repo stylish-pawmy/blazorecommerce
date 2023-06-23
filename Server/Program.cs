@@ -6,6 +6,8 @@ global using BlazorEcommerce.Server.Services.CartService;
 global using BlazorEcommerce.Server.Services.AuthService;
 global using BlazorEcommerce.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Swashbuckle.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +24,18 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options => {
+        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(
+                builder.Configuration.GetSection("AppSettings:Token").Value
+            )),
+            ValidateAudience = false,
+            ValidateIssuer = false
+        };
+    });
 
 var app = builder.Build();
 
@@ -45,6 +59,8 @@ app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
 
 
 app.MapRazorPages();

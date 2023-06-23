@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "10HrPte/5NphAxvoQHFh/8QRCKYVAHipCghx68gzzad+FqHwjjtpwnaxFadBeJ3SPQCldRWFRFAl5YxuNc/d+g==",
+  "dgSpecHash": "3wY9Dpem5CqaR2DDfF7CgoENQ7RwiM5bLtDvtvE15xm9LrCmJgnKkyJ0YJleQ0foNGOEUcoN1Durp1CH6LZNWw==",
   "success": true,
   "projectFilePath": "/home/pawmy/Projects/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj",
   "expectedPackageFiles": [
     "/home/pawmy/.nuget/packages/blazored.localstorage/4.3.0/blazored.localstorage.4.3.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/pawmy/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.8/microsoft.aspnetcore.authentication.jwtbearer.7.0.8.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.aspnetcore.authorization/7.0.7/microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.aspnetcore.components/7.0.7/microsoft.aspnetcore.components.7.0.7.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.7/microsoft.aspnetcore.components.analyzers.7.0.7.nupkg.sha512",
@@ -44,6 +45,8 @@
     "/home/pawmy/.nuget/packages/microsoft.identitymodel.abstractions/6.31.0/microsoft.identitymodel.abstractions.6.31.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.31.0/microsoft.identitymodel.jsonwebtokens.6.31.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.identitymodel.logging/6.31.0/microsoft.identitymodel.logging.6.31.0.nupkg.sha512",
+    "/home/pawmy/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/home/pawmy/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.identitymodel.tokens/6.31.0/microsoft.identitymodel.tokens.6.31.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.jsinterop/7.0.5/microsoft.jsinterop.7.0.5.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.jsinterop.webassembly/7.0.5/microsoft.jsinterop.webassembly.7.0.5.nupkg.sha512",
