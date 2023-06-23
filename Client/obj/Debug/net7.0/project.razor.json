@@ -915,6 +915,43 @@
         }
       },
       {
+        "HashCode": -1140108007,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Profile",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Profile"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Profile",
+          "Common.TypeNameIdentifier": "Profile",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1934073958,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Profile",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.Profile"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Profile",
+          "Common.TypeNameIdentifier": "Profile",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 2101151979,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.App",
@@ -17371,6 +17408,11 @@
     {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Login.razor",
       "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Profile.razor",
+      "TargetPath": "Pages\\Profile.razor",
       "FileKind": "component"
     },
     {
