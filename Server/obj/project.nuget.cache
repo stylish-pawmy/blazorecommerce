@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zwu0JDFB385Tkq8Ex3AdI9zL3khpBumnbgsnSXT70SxVrWt6fa3ayEthmSybfVI1qZtPqzhVfM9vSEbwsDiekQ==",
+  "dgSpecHash": "10HrPte/5NphAxvoQHFh/8QRCKYVAHipCghx68gzzad+FqHwjjtpwnaxFadBeJ3SPQCldRWFRFAl5YxuNc/d+g==",
   "success": true,
   "projectFilePath": "/home/pawmy/Projects/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "/home/pawmy/.nuget/packages/microsoft.aspnetcore.components.webassembly/7.0.5/microsoft.aspnetcore.components.webassembly.7.0.5.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/7.0.5/microsoft.aspnetcore.components.webassembly.server.7.0.5.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.aspnetcore.metadata/7.0.7/microsoft.aspnetcore.metadata.7.0.7.nupkg.sha512",
+    "/home/pawmy/.nuget/packages/microsoft.aspnetcore.webutilities/2.2.0/microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
@@ -46,6 +47,7 @@
     "/home/pawmy/.nuget/packages/microsoft.identitymodel.tokens/6.31.0/microsoft.identitymodel.tokens.6.31.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.jsinterop/7.0.5/microsoft.jsinterop.7.0.5.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.jsinterop.webassembly/7.0.5/microsoft.jsinterop.webassembly.7.0.5.nupkg.sha512",
+    "/home/pawmy/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
@@ -56,6 +58,7 @@
     "/home/pawmy/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/pawmy/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/system.identitymodel.tokens.jwt/6.31.0/system.identitymodel.tokens.jwt.6.31.0.nupkg.sha512",
     "/home/pawmy/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
