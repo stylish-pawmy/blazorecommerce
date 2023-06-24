@@ -8,4 +8,5 @@ public interface ICartService
     public Task<ServiceResponse<List<CartProductResponse>>> GetCartProducts();
     public Task RemoveProductFromCart(int productId, int productTypeId);
     public Task UpdateProductQuantity(CartProductResponse product);
+    public Task StoreCartItems(bool emptyLocalCart);
 }
