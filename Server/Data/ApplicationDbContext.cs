@@ -11,6 +11,9 @@ public class ApplicationDbContext: DbContext
         modelBuilder.Entity<ProductVariant>()
         .HasKey(p => new {p.ProductId, p.ProductTypeId});
 
+        modelBuilder.Entity<CartItem>()
+        .HasKey(ci => new {ci.UserId, ci.ProductId, ci.ProductTypeId});
+
         modelBuilder.Entity<ProductType>().HasData(
             new ProductType { Id = 1, Name = "Default" },
             new ProductType { Id = 2, Name = "Paperback" },
@@ -298,4 +301,5 @@ public class ApplicationDbContext: DbContext
     public DbSet<ProductType> ProductTypes { get; set; } = null!;
     public DbSet<ProductVariant> ProductVariants { get; set; } = null!;
     public DbSet<User> Users { get; set; } = null!;
+    public DbSet<CartItem> CartItems { get; set; }
 }
