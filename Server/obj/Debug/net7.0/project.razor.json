@@ -5251,43 +5251,6 @@
         }
       },
       {
-        "HashCode": 144618235,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Cart",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Cart"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
-          "Common.TypeNameIdentifier": "Cart",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1836340075,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.Cart",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Pages.Cart"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
-          "Common.TypeNameIdentifier": "Cart",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1816900057,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Counter",
@@ -5420,6 +5383,43 @@
         }
       },
       {
+        "HashCode": 144618235,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Cart",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Cart"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
+          "Common.TypeNameIdentifier": "Cart",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1836340075,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Cart",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.Cart"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Cart",
+          "Common.TypeNameIdentifier": "Cart",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 1636068085,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Login",
@@ -5452,43 +5452,6 @@
           "Common.TypeName": "BlazorEcommerce.Client.Pages.Login",
           "Common.TypeNameIdentifier": "Login",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 279395314,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.UserButton",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UserButton"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.UserButton",
-          "Common.TypeNameIdentifier": "UserButton",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 138025690,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.UserButton",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.UserButton"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.UserButton",
-          "Common.TypeNameIdentifier": "UserButton",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -5631,43 +5594,6 @@
         "Metadata": {
           "Common.TypeName": "BlazorEcommerce.Client.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -357684285,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CartCounter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
-          "Common.TypeNameIdentifier": "CartCounter",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1747753575,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Shared.CartCounter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
-          "Common.TypeNameIdentifier": "CartCounter",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -6018,6 +5944,80 @@
         "Metadata": {
           "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
           "Common.TypeNameIdentifier": "ShopNavMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -357684285,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CartCounter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
+          "Common.TypeNameIdentifier": "CartCounter",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1747753575,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.CartCounter",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.CartCounter"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.CartCounter",
+          "Common.TypeNameIdentifier": "CartCounter",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 279395314,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.UserButton",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UserButton"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.UserButton",
+          "Common.TypeNameIdentifier": "UserButton",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 138025690,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.UserButton",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.UserButton"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.UserButton",
+          "Common.TypeNameIdentifier": "UserButton",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

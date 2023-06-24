@@ -55,6 +55,7 @@
             await LocalStorage.SetItemAsync("authToken", result.Data);
             await AuthProvider.GetAuthenticationStateAsync();
             await CartService.StoreCartItems(true);
+            await CartService.GetCartCount();
             NavigationManager.NavigateTo(returnUrl);
         }
     }
