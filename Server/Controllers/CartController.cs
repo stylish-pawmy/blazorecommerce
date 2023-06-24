@@ -25,8 +25,7 @@ public class CartController : ControllerBase
     [HttpPost, Authorize]
     public async Task<ActionResult<ServiceResponse<List<CartProductResponse>>>> StoreCartProducts(List<CartItem> cartItems)
     {
-        var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-        var response = await _cartService.StoreCartProducts(cartItems, userId);
+        var response = await _cartService.StoreCartProducts(cartItems);
         
         return Ok(response);
     }
