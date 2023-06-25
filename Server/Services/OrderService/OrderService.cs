@@ -19,6 +19,49 @@ public class OrderService : IOrderService
         _cartService = cartService;
     }
 
+    public async Task<ServiceResponse<OrderDetailsResponse>> GetOrderDetails(int orderId)
+    {
+        var response = new ServiceResponse<OrderDetailsResponse>();
+
+        var order = await _context.Orders
+        .Include(o => o.OrderItems)
+        .ThenInclude(oi => oi.Product)
+        .Include(o => o.OrderItems)
+        .ThenInclude(oi => oi.ProductType)
+        .Where(o => o.Id == orderId)
+        .FirstOrDefaultAsync();
+
+        if (order is null)
+        {
+            response.Message = "Order not found.";
+            response.Success = false;
+            response.Data = null;
+        }
+        else {
+            var orderDetails = new OrderDetailsResponse()
+            {
+                Id = order.Id,
+                TotalPrice = order.TotalPrice,
+                OrderDate = order.OrderDate,
+            };
+
+            order.OrderItems.ForEach(oi => orderDetails.Products.Add(
+                new OrderProductDetailsResponse {
+                    ProductId = oi.ProductId,
+                    ProductType = oi.ProductType.Name,
+                    Title = oi.Product.Title,
+                    TotalPrice = oi.TotalPrice,
+                    Quantity = oi.Quantity,
+                    ImageUrl = oi.Product.ImageUrl
+                }
+            ));
+
+            response.Data = orderDetails;
+        }
+
+        return response;
+    }
+
     public async Task<ServiceResponse<List<OrderOverviewResponse>>> GetOrders()
     {
         var response = new ServiceResponse<List<OrderOverviewResponse>>();

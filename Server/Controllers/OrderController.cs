@@ -21,9 +21,16 @@ public class OrderController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<ServiceResponse<OrderOverviewResponse>>> GetOrders()
+    public async Task<ActionResult<ServiceResponse<List<OrderOverviewResponse>>>> GetOrders()
     {
         var response = await _orderService.GetOrders();
+        return Ok(response);
+    }
+
+    [HttpGet("{orderId}")]
+    public async Task<ActionResult<ServiceResponse<OrderDetailsResponse>>> GetOrders(int orderId)
+    {
+        var response = await _orderService.GetOrderDetails(orderId);
         return Ok(response);
     }
 }
