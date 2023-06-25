@@ -3,11 +3,16 @@ namespace BlazorEcommerce.Client.Services.AuthService;
 public class AuthService : IAuthService
 {
     private readonly HttpClient _http;
+    private readonly AuthenticationStateProvider _authState;
 
-    public AuthService(HttpClient http)
+    public AuthService(HttpClient http, AuthenticationStateProvider authState)
     {
         _http = http;
+        _authState = authState;
     }
+
+    public async Task<bool> IsUserAuthenticated() =>
+        (await _authState.GetAuthenticationStateAsync()).User.Identity.IsAuthenticated;
 
     public async Task<ServiceResponse<bool>> ChangePassword(ChangePassword request)
     {
