@@ -9,12 +9,20 @@ public class AuthService : IAuthService
 {
     private readonly ApplicationDbContext _context;
     private readonly IConfiguration _config;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public AuthService(ApplicationDbContext context, IConfiguration config)
+    public AuthService(
+        ApplicationDbContext context,
+        IConfiguration config,
+        IHttpContextAccessor httpContextAccessor)
     {
         _context = context;
         _config = config;
+        _httpContextAccessor = httpContextAccessor;
     }
+
+    public int GetUserId() => int.Parse(
+        _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier));
 
     public async Task<ServiceResponse<int>> Register(User user, string password)
     {

@@ -4,7 +4,13 @@
 
 <PageTitle>Cart</PageTitle>
 <h3>Shopping Cart</h3>
-@if (cartProducts == null || cartProducts.Count == 0)
+@if(isOrderPlaced)
+{
+    <span>Thank you for ordering from us! you can check your orders in 
+        <a href="orders">here</a>.
+    </span>
+}
+else if (cartProducts == null || cartProducts.Count == 0)
 {
     <span>@message</span>
 }
@@ -44,6 +50,7 @@ else {
 {
     List<CartProductResponse>? cartProducts { get; set; } = null;
     string message = string.Empty;
+    bool isOrderPlaced = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -75,5 +82,7 @@ else {
     private async Task PlaceOrder()
     {
         await OrderService.PlaceOrder();
+        await CartService.GetCartCount();
+        isOrderPlaced = true;
     }
 }
