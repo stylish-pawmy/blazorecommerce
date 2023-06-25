@@ -1,0 +1,39 @@
+@page "/orders";
+@inject IOrderService OrderService;
+
+<PageTitle>Orders</PageTitle>
+<h3>Order List</h3>
+
+@if (orders is null)
+{
+    <span>Loading orders..</span>
+}
+else if (orders.Count == 0)
+{
+    <span>No orders found.</span>
+}
+else {
+    foreach (var order in orders)
+    {
+        <div class="container">
+            <div class="image-wrapper">
+                <img src="@order.ProductImageUrl" class="image" />
+            </div>
+            <div class="details">
+                <h4>@order.Product</h4>
+                <span>@order.OrderDate</span><br />
+                <a href="orders/@order.Id">Show more...</a>
+            </div>
+            <div class="order-price">DZD @order.TotalPrice</div>
+        </div>
+    }
+}
+
+@code {
+    private List<OrderOverviewResponse>? orders = null;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        orders = await OrderService.GetOrders();
+    }
+}

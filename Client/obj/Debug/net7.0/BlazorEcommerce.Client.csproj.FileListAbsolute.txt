@@ -858,3 +858,4 @@
 /home/pawmy/Projects/BlazorEcommerce/Client/bin/Debug/net7.0/Microsoft.Net.Http.Headers.dll
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/dlQe6xhX.gz
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/50rA+hKP.gz
+/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Pages/Orders.razor.rz.scp.css
