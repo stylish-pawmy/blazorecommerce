@@ -27,7 +27,7 @@ public class OrderService : IOrderService
         .Include(o => o.OrderItems)
         .ThenInclude(oi => oi.Product)
         .Where(o => o.UserId == _authService.GetUserId())
-        .OrderBy(o => o.OrderDate)
+        .OrderByDescending(o => o.OrderDate)
         .ToListAsync();
 
         var orderResponse = new List<OrderOverviewResponse>();
@@ -37,8 +37,8 @@ public class OrderService : IOrderService
             TotalPrice = o.TotalPrice,
             OrderDate = o.OrderDate,
             Product =  (o.OrderItems.Count > 1) ?
-                        $"{o.OrderItems.First().Product.Title} and {o.OrderItems.Count - 1} more."
-                        : $"{o.OrderItems.First().Product.Title}.",
+                        $"{o.OrderItems.First().Product.Title} and {o.OrderItems.Count - 1} more..."
+                        : o.OrderItems.First().Product.Title,
             ProductImageUrl = o.OrderItems.First().Product.ImageUrl
         }));
 
