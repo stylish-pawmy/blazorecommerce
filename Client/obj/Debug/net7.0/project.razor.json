@@ -459,6 +459,65 @@
         }
       },
       {
+        "HashCode": -1580695174,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.OrderDetails",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OrderDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "orderId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "orderId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.OrderDetails",
+          "Common.TypeNameIdentifier": "OrderDetails",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -649560357,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.OrderDetails",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.OrderDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "orderId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "orderId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.OrderDetails",
+          "Common.TypeNameIdentifier": "OrderDetails",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -361335215,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Shared.CartCounter",
@@ -17500,6 +17559,11 @@
     {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ProductList.razor",
       "TargetPath": "Shared\\ProductList.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/OrderDetails.razor",
+      "TargetPath": "Pages\\OrderDetails.razor",
       "FileKind": "component"
     },
     {

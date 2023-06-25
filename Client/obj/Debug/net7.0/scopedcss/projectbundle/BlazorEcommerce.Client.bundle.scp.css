@@ -40,6 +40,32 @@
 .input-quantity[b-s16kd2ybat] {
     width: 70px;
 }
+/* /Pages/OrderDetails.razor.rz.scp.css */
+.container[b-ubnsd9n8af] {
+    display: flex;
+    padding: 6px;
+}
+
+.image-wrapper[b-ubnsd9n8af] {
+    width: 150px;
+    text-align: center;
+}
+
+.image[b-ubnsd9n8af] {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+}
+
+.name[b-ubnsd9n8af] {
+    flex-grow: 1;
+    padding: 6px;
+}
+
+.product-price[b-ubnsd9n8af] {
+    font-weight: 600;
+    text-align: right;
+}
 /* /Pages/Orders.razor.rz.scp.css */
 .container[b-urk7bthkgn] {
     display: flex;

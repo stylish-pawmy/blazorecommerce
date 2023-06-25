@@ -28,7 +28,8 @@ public class OrderService : IOrderService
         .ThenInclude(oi => oi.Product)
         .Include(o => o.OrderItems)
         .ThenInclude(oi => oi.ProductType)
-        .Where(o => o.Id == orderId)
+        .Where(o => o.UserId == _authService.GetUserId() && o.Id == orderId)
+        .OrderByDescending(o => o.OrderDate)
         .FirstOrDefaultAsync();
 
         if (order is null)
@@ -43,6 +44,7 @@ public class OrderService : IOrderService
                 Id = order.Id,
                 TotalPrice = order.TotalPrice,
                 OrderDate = order.OrderDate,
+                Products = new List<OrderProductDetailsResponse>()
             };
 
             order.OrderItems.ForEach(oi => orderDetails.Products.Add(
