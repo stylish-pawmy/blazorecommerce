@@ -19,4 +19,11 @@ public class OrderController : ControllerBase
         var response = await _orderService.PlaceOrder();
         return Ok(response);
     }
+
+    [HttpGet]
+    public async Task<ActionResult<ServiceResponse<OrderOverviewResponse>>> GetOrders()
+    {
+        var response = await _orderService.GetOrders();
+        return Ok(response);
+    }
 }
