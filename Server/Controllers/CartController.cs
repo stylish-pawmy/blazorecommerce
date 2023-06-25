@@ -36,6 +36,13 @@ public class CartController : ControllerBase
         return Ok(response);
     }
 
+    [HttpDelete("{productId}/{productTypeId}")]
+    public async Task<ActionResult<ServiceResponse<bool>>> RemoveProduct(int productId, int productTypeId)
+    {
+        var response = await _cartService.RemoveProduct(productId, productTypeId);
+        return Ok(response);
+    }
+
     [HttpPost, Authorize]
     public async Task<ActionResult<ServiceResponse<List<CartProductResponse>>>> StoreCartProducts(List<CartItem> cartItems)
     {

@@ -120,4 +120,25 @@ public class CartService : ICartService
         
         return new ServiceResponse<bool> { Data = true };
     }
+
+    public async Task<ServiceResponse<bool>> RemoveProduct(int productId, int productTypeId)
+    {
+        var item = await _context.CartItems.FirstOrDefaultAsync(ci =>
+            ci.ProductId == productId
+         && ci.ProductTypeId == productTypeId
+         && ci.UserId == GetUserId() 
+        );
+
+        if (item is null)
+            return new ServiceResponse<bool> {
+                Data = false,
+                Success = false,
+                Message = "Product not found"
+            };
+        
+        _context.CartItems.Remove(item);
+        await _context.SaveChangesAsync();
+
+        return new ServiceResponse<bool> { Data = true};
+    }
 }

@@ -8,4 +8,6 @@ public interface ICartService
     Task<ServiceResponse<List<CartProductResponse>>> GetDbCartProducts();
     Task<ServiceResponse<bool>> AddToCart(CartItem cartItem);
     Task<ServiceResponse<bool>> UpdateProductQuantity(CartItem cartItem);
+    Task<ServiceResponse<bool>> RemoveProduct(int productId, int productTypeId);
+
 }
