@@ -98,17 +98,30 @@ public class CartService : ICartService
 
     public async Task UpdateProductQuantity(CartProductResponse product)
     {
-        var cartItems = await _localStorage.GetItemAsync<List<CartItem>>("cart");
-
-        var cartItem = cartItems
-            .Find(i => i.ProductId == product.ProductId && i.ProductTypeId == product.ProductTypeId);
-
-        if (cartItem is null) return;
-
-        if (cartItem is not null)
+        if (await IsUserAuthenticated())
         {
-            cartItem.Quantity = product.Quantity;
-            await _localStorage.SetItemAsync<List<CartItem>>("cart", cartItems);
+            var request = new CartItem
+            {
+                ProductId = product.ProductId,
+                Quantity = product.Quantity,
+                ProductTypeId = product.ProductTypeId
+            };
+
+            await _http.PutAsJsonAsync<CartItem>("api/cart/update-quantity", request);
+        }
+        else {
+            var cartItems = await _localStorage.GetItemAsync<List<CartItem>>("cart");
+
+            var cartItem = cartItems
+                .Find(i => i.ProductId == product.ProductId && i.ProductTypeId == product.ProductTypeId);
+
+            if (cartItem is null) return;
+
+            if (cartItem is not null)
+            {
+                cartItem.Quantity = product.Quantity;
+                await _localStorage.SetItemAsync<List<CartItem>>("cart", cartItems);
+            }
         }
     }
 

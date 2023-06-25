@@ -99,4 +99,25 @@ public class CartService : ICartService
         await _context.SaveChangesAsync();
         return new ServiceResponse<bool> { Data = true };
     }
+
+    public async Task<ServiceResponse<bool>> UpdateProductQuantity(CartItem cartItem)
+    {
+        var item = await _context.CartItems.FirstOrDefaultAsync(ci =>
+            ci.ProductId == cartItem.ProductId
+         && ci.ProductTypeId == cartItem.ProductTypeId
+         && ci.UserId == GetUserId() 
+        );
+
+        if (item is null)
+            return new ServiceResponse<bool> {
+                Data = false,
+                Success = false,
+                Message = "Product not found"
+            };
+
+        item.Quantity = cartItem.Quantity;
+        await _context.SaveChangesAsync();
+        
+        return new ServiceResponse<bool> { Data = true };
+    }
 }
