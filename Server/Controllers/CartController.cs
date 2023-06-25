@@ -22,6 +22,13 @@ public class CartController : ControllerBase
         return Ok(response);
     }
 
+    [HttpPost("add")]
+    public async Task<ActionResult<ServiceResponse<bool>>> AddToCart(CartItem cartItem)
+    {
+        var response = await _cartService.AddToCart(cartItem);
+        return Ok(response);
+    }
+
     [HttpPost, Authorize]
     public async Task<ActionResult<ServiceResponse<List<CartProductResponse>>>> StoreCartProducts(List<CartItem> cartItems)
     {

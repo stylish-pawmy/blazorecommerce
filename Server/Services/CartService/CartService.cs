@@ -52,8 +52,10 @@ public class CartService : ICartService
     public async Task<ServiceResponse<List<CartProductResponse>>> StoreCartProducts(List<CartItem> cartItems)
     {
         cartItems.ForEach(c => c.UserId = GetUserId());
-        await _context.CartItems.AddRangeAsync(cartItems);
-        await _context.SaveChangesAsync();
+        foreach (var item in cartItems)
+        {
+            await AddToCart(item);
+        }
 
         return await GetDbCartProducts();
     }
@@ -75,5 +77,26 @@ public class CartService : ICartService
         );
 
         return result;
+    }
+
+    public async Task<ServiceResponse<bool>> AddToCart(CartItem cartItem)
+    {
+        var userId = GetUserId();
+
+        cartItem.UserId = userId;
+
+        var item = await _context.CartItems.FirstOrDefaultAsync(ci =>
+            ci.ProductId == cartItem.ProductId
+         && ci.ProductTypeId == cartItem.ProductTypeId
+         && ci.UserId == cartItem.UserId 
+        );
+
+        if (item is null)
+            _context.CartItems.Add(cartItem);
+        else
+            item.Quantity += cartItem.Quantity;
+        
+        await _context.SaveChangesAsync();
+        return new ServiceResponse<bool> { Data = true };
     }
 }
