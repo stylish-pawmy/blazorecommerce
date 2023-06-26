@@ -481,6 +481,43 @@
         }
       },
       {
+        "HashCode": 922238071,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.PaymentSuccess",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PaymentSuccess"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.PaymentSuccess",
+          "Common.TypeNameIdentifier": "PaymentSuccess",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 518135065,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.PaymentSuccess",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.PaymentSuccess"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.PaymentSuccess",
+          "Common.TypeNameIdentifier": "PaymentSuccess",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -315397878,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Cart",
@@ -17569,6 +17606,11 @@
     {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Login.razor",
       "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/PaymentSuccess.razor",
+      "TargetPath": "Pages\\PaymentSuccess.razor",
       "FileKind": "component"
     },
     {

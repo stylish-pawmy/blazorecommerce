@@ -24,7 +24,7 @@ public class OrderService : IOrderService
         if (await IsUserAuthenticated())
         {
             var result = await _http.PostAsync("api/payment/checkout", null);
-            string url = await result.Content.ReadAsStringAsync();
+            string url = (await result.Content.ReadFromJsonAsync<ServiceResponse<string>>()).Data;
             return url;
         }
         else {

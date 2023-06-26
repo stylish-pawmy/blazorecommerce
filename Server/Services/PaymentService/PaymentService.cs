@@ -31,7 +31,7 @@ public class PaymentService : IPaymentService
 
         products.ForEach(p => lineItems.Add(new SessionLineItemOptions{
             PriceData = new SessionLineItemPriceDataOptions {
-                UnitAmountDecimal = Convert.ToDecimal(p.Price),
+                UnitAmountDecimal = Convert.ToDecimal(p.Price) * 100,
                 Currency = "dzd",
                 ProductData = new SessionLineItemPriceDataProductDataOptions {
                     Name = p.Title,
@@ -50,8 +50,8 @@ public class PaymentService : IPaymentService
             },
             LineItems = lineItems,
             Mode = "payment",
-            SuccessUrl = "https://localhost:7146/payment-success",
-            CancelUrl = "https://localhost:7146/cart"
+            SuccessUrl = "http://localhost:5160/payment-success",
+            CancelUrl = "http://localhost:5160/cart"
         };
 
         var sessionService = new SessionService();
