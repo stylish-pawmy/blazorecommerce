@@ -92,9 +92,9 @@ public class OrderService : IOrderService
         return response;
     }
 
-    public async Task<ServiceResponse<bool>> PlaceOrder()
+    public async Task<ServiceResponse<bool>> PlaceOrder(int userId)
     {
-        var products = (await _cartService.GetDbCartProducts()).Data;
+        var products = (await _cartService.GetDbCartProducts(userId)).Data;
         double totalPrice = 0;
         products.ForEach(product => totalPrice += product.Price * product.Quantity);
 
@@ -109,7 +109,7 @@ public class OrderService : IOrderService
         ));
 
         var order = new Order {
-            UserId = _authService.GetUserId(),
+            UserId = userId,
             OrderDate = DateTime.Now.ToUniversalTime(),
             OrderItems = orderItems,
             TotalPrice = totalPrice
@@ -117,7 +117,7 @@ public class OrderService : IOrderService
 
         _context.Orders.Add(order);
 
-        _context.CartItems.RemoveRange(_context.CartItems.Where(ci => ci.UserId == _authService.GetUserId()));
+        _context.CartItems.RemoveRange(_context.CartItems.Where(ci => ci.UserId == userId));
 
         await _context.SaveChangesAsync();
 

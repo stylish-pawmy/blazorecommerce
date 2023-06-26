@@ -13,13 +13,6 @@ public class OrderController : ControllerBase
         _orderService = orderService;
     }
 
-    [HttpPost]
-    public async Task<ActionResult<ServiceResponse<bool>>> PlaceOrder()
-    {
-        var response = await _orderService.PlaceOrder();
-        return Ok(response);
-    }
-
     [HttpGet]
     public async Task<ActionResult<ServiceResponse<List<OrderOverviewResponse>>>> GetOrders()
     {

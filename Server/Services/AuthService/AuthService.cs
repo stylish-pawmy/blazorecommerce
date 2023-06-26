@@ -27,6 +27,9 @@ public class AuthService : IAuthService
     public string GetUserEmail() =>
         _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
 
+    public async Task<User> GetUserByEmail(string email) =>
+        await _context.Users.Where(u => u.Email == email).FirstOrDefaultAsync();
+
     public async Task<ServiceResponse<int>> Register(User user, string password)
     {
         if (await UserExists(user.Email))

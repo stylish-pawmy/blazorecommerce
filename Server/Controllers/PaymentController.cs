@@ -15,9 +15,17 @@ public class PaymentController : ControllerBase
     }
 
     [HttpPost("checkout")]
-    public async Task<ServiceResponse<string>> CreateCheckoutSession()
+    public async Task<ActionResult<ServiceResponse<string>>> CreateCheckoutSession()
     {
         var url = (await _paymentService.CreateCheckoutSession()).Url;
-        return new ServiceResponse<string> {Data = url};
+        return Ok(new ServiceResponse<string> {Data = url});
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<ServiceResponse<bool>>> FullfillOrder()
+    {
+        var result = await _paymentService.FulfillOrder(Request);
+        if (!result.Success) return BadRequest(result);
+        return Ok(result);
     }
 }

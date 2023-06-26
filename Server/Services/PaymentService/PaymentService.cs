@@ -59,4 +59,33 @@ public class PaymentService : IPaymentService
 
         return session;
     }
+
+    public async Task<ServiceResponse<bool>> FulfillOrder(HttpRequest request)
+    {
+        var response = new ServiceResponse<bool>();
+        var json = await (new StreamReader(request.Body)).ReadToEndAsync();
+
+        var stripeEvent = EventUtility.ConstructEvent(
+            json,
+            request.Headers["Stripe-Signature"],
+            _config.GetSection("Stripe:Testing").Value
+        );
+
+        if (stripeEvent.Type == Events.CheckoutSessionCompleted)
+        {
+            try {
+                var session = stripeEvent.Data.Object as Session;
+                var user = await _authService.GetUserByEmail(session.CustomerEmail);
+                response = await _orderService.PlaceOrder(user.Id);
+                response.Message = "Order payment succeeded.";
+
+            } catch (StripeException e) {
+                response.Success = false;
+                response.Data = false;
+                response.Message = "Order payment failed.";
+            }
+        }
+
+        return response;
+    }
 }

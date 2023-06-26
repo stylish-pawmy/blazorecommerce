@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bRBz0pJ+22h5RJm+zvmXUpthnw6ikOGs7zXPLVx0g8kLv+xcnawY6HzUeHsGYQSuX+9t93rc+KtOzt+yoBrx4w==",
+  "dgSpecHash": "xd04sWkkVu+ujTwd37QYKPMcbJ3DhNnprkNSAeKo1Fl6pt6KPJKBrd0kK+unQDM0B+eadX6TW/JQBcmis1iiTQ==",
   "success": true,
   "projectFilePath": "/home/pawmy/Projects/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj",
   "expectedPackageFiles": [
