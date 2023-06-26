@@ -47,7 +47,10 @@ public class PaymentService : IPaymentService
             CustomerEmail = _authService.GetUserEmail(),
             PaymentMethodTypes = new List<string> {
                 "card"
-            },
+            },/* 
+            ShippingAddressCollection = new SessionShippingAddressCollectionOptions {
+                AllowedCountries = new List<string> {"FR"}
+            }, */
             LineItems = lineItems,
             Mode = "payment",
             SuccessUrl = "http://localhost:5160/payment-success",
