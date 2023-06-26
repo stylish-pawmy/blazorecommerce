@@ -19,14 +19,16 @@ public class OrderService : IOrderService
         _navigationManager = navigationManager;
     }
 
-    public async Task PlaceOrder()
+    public async Task<string> PlaceOrder()
     {
         if (await IsUserAuthenticated())
         {
-            var result = await _http.PostAsync("api/order", null);
+            var result = await _http.PostAsync("api/payment/checkout", null);
+            string url = await result.Content.ReadAsStringAsync();
+            return url;
         }
         else {
-            _navigationManager.NavigateTo("login");
+            return "login";
         }
     }
 
