@@ -576,6 +576,43 @@
         }
       },
       {
+        "HashCode": 1861754597,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.AddressForm",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddressForm"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.AddressForm",
+          "Common.TypeNameIdentifier": "AddressForm",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1828500887,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.AddressForm",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.AddressForm"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.AddressForm",
+          "Common.TypeNameIdentifier": "AddressForm",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -1620062659,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Register",
@@ -17596,6 +17633,11 @@
     {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/ProductList.razor",
       "TargetPath": "Shared\\ProductList.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Shared/AddressForm.razor",
+      "TargetPath": "Shared\\AddressForm.razor",
       "FileKind": "component"
     },
     {

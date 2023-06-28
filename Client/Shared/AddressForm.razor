@@ -1,0 +1,77 @@
+@inject IAddressService AddressService;
+
+@if (address is null)
+{
+    <p>You haven't added an address yet.</p>
+    <button class="btn" @onclick="InitAddress">Add</button>
+}
+else if (!editAddress)
+{
+    <p>
+        <span>@address.FirstName @address.LastName</span>
+        <span>@address.Street</span>
+        <span>@address.City, @address.State, @address.Zip</span>
+        <span>@address.Country</span>
+    </p>
+    <button class="btn btn-primary" @onclick="EditAddress">Edit</button>
+}
+else {
+    <EditForm Model="address" OnSubmit="SubmitAddress">
+        <div class="mb-3">
+            <label for="firstName">First Name</label>
+            <InputText id="firstName" @bind-Value="address.FirstName" />
+        </div>
+        <div class="mb-3">
+            <label for="lastName">Last Name</label>
+            <InputText id="lastName" @bind-Value="address.LastName" />
+        </div>
+        <div class="mb-3">
+            <label for="street">Street</label>
+            <InputText id="street" @bind-Value="address.Street" />
+        </div>
+        <div class="mb-3">
+            <label for="city">City</label>
+            <InputText id="city" @bind-Value="address.City" />
+        </div>
+        <div class="mb-3">
+            <label for="state">State</label>
+            <InputText id="state" @bind-Value="address.State" />
+        </div>
+        <div class="mb-3">
+            <label for="zip">ZIP</label>
+            <InputText id="zip" @bind-Value="address.Zip" />
+        </div>
+        <div class="mb-3">
+            <label for="country">Country</label>
+            <InputText id="country" @bind-Value="address.Country" />
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+}
+
+@code {
+    Address? address = null;
+    bool editAddress = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await AddressService.GetAddress();
+    }
+
+    private async Task SubmitAddress()
+    {
+        await AddressService.AddOrUpdateAddress(address);
+        editAddress = false;
+    }
+
+    private void InitAddress()
+    {
+        address = new Address();
+        editAddress = true;
+    }
+
+    private void EditAddress()
+    {
+        editAddress = true;
+    }
+}
