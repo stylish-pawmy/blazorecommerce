@@ -3,15 +3,15 @@
 @if (address is null)
 {
     <p>You haven't added an address yet.</p>
-    <button class="btn" @onclick="InitAddress">Add</button>
+    <button class="btn btn-primary" @onclick="InitAddress">Add</button>
 }
 else if (!editAddress)
 {
     <p>
-        <span>@address.FirstName @address.LastName</span>
-        <span>@address.Street</span>
-        <span>@address.City, @address.State, @address.Zip</span>
-        <span>@address.Country</span>
+        <span>@address.FirstName @address.LastName</span><br />
+        <span>@address.Street</span><br />
+        <span>@address.City, @address.State, @address.Zip</span><br />
+        <span>@address.Country</span><br />
     </p>
     <button class="btn btn-primary" @onclick="EditAddress">Edit</button>
 }
@@ -19,31 +19,31 @@ else {
     <EditForm Model="address" OnSubmit="SubmitAddress">
         <div class="mb-3">
             <label for="firstName">First Name</label>
-            <InputText id="firstName" @bind-Value="address.FirstName" />
+            <InputText class="form-control" id="firstName" @bind-Value="address.FirstName" />
         </div>
         <div class="mb-3">
             <label for="lastName">Last Name</label>
-            <InputText id="lastName" @bind-Value="address.LastName" />
+            <InputText class="form-control" id="lastName" @bind-Value="address.LastName" />
         </div>
         <div class="mb-3">
             <label for="street">Street</label>
-            <InputText id="street" @bind-Value="address.Street" />
+            <InputText class="form-control" id="street" @bind-Value="address.Street" />
         </div>
         <div class="mb-3">
             <label for="city">City</label>
-            <InputText id="city" @bind-Value="address.City" />
+            <InputText class="form-control" id="city" @bind-Value="address.City" />
         </div>
         <div class="mb-3">
             <label for="state">State</label>
-            <InputText id="state" @bind-Value="address.State" />
+            <InputText class="form-control" id="state" @bind-Value="address.State" />
         </div>
         <div class="mb-3">
             <label for="zip">ZIP</label>
-            <InputText id="zip" @bind-Value="address.Zip" />
+            <InputText class="form-control" id="zip" @bind-Value="address.Zip" />
         </div>
         <div class="mb-3">
             <label for="country">Country</label>
-            <InputText id="country" @bind-Value="address.Country" />
+            <InputText class="form-control" id="country" @bind-Value="address.Country" />
         </div>
         <button type="submit" class="btn btn-primary">Save</button>
     </EditForm>
@@ -55,7 +55,7 @@ else {
 
     protected override async Task OnInitializedAsync()
     {
-        await AddressService.GetAddress();
+        address = await AddressService.GetAddress();
     }
 
     private async Task SubmitAddress()

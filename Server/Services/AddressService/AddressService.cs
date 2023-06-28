@@ -29,6 +29,7 @@ public class AddressService : IAddressService
             dbAddress.State = dbAddress.State;
             dbAddress.Street = dbAddress.Street;
             dbAddress.Zip = dbAddress.Zip;
+            response.Data = dbAddress;
         }
 
         response.Data = address;
