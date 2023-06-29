@@ -10,9 +10,8 @@ public class CategoryService : ICategoryService
     }
 
     public List<Category> Categories { get; set; } = new List<Category>();
-    public List<Category> AdminCategories { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-    public event Action OnChange;
+    public List<Category> AdminCategories { get; set; } = new List<Category>(); 
+    public event Action OnChange = () => {};
 
     public async Task AddCategory(Category category)
     {

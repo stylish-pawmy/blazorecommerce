@@ -1,3 +1,25 @@
+/* /Pages/Admin/Categories.razor.rz.scp.css */
+.header[b-lmaf0wuw71] {
+    display: flex;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+
+.row[b-lmaf0wuw71] {
+    display: flex;
+    padding: 6px;
+}
+
+.col[b-lmaf0wuw71] {
+    flex: 1;
+}
+
+.col-visible[b-lmaf0wuw71] {
+    text-align:center;
+}
 /* /Pages/Cart.razor.rz.scp.css */
 .container[b-s16kd2ybat] {
     display: flex;
