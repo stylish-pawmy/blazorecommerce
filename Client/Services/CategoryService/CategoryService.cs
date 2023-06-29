@@ -25,7 +25,6 @@ public class CategoryService : ICategoryService
     {
         var category = new Category {IsNew = true, Editing = true};
         AdminCategories.Add(category);
-
         OnChange.Invoke();
         return category;
     }
@@ -60,6 +59,8 @@ public class CategoryService : ICategoryService
         {
             Categories = response.Data;
         }
+
+        OnChange.Invoke();
     }
 
     public async Task UpdateCategory(Category category)
