@@ -1,0 +1,7 @@
+.dropdown-item:hover {
+    margin-left: 0;
+}
+
+.top-row a {
+    margin-left: 0!important;
+}

@@ -860,3 +860,4 @@
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/C+s99Bkx.gz
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/JdDyVacp.gz
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/build-gz/EzqyDZNN.gz
+/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Shared/AdminMenu.razor.rz.scp.css
