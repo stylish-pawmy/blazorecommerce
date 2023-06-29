@@ -5472,65 +5472,6 @@
         }
       },
       {
-        "HashCode": 2112009428,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.OrderDetails",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "OrderDetails"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "orderId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "orderId",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.OrderDetails",
-          "Common.TypeNameIdentifier": "OrderDetails",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1822408694,
-        "Kind": "Components.Component",
-        "Name": "BlazorEcommerce.Client.Pages.OrderDetails",
-        "AssemblyName": "BlazorEcommerce.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorEcommerce.Client.Pages.OrderDetails"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "orderId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "orderId",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BlazorEcommerce.Client.Pages.OrderDetails",
-          "Common.TypeNameIdentifier": "OrderDetails",
-          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 559435786,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Orders",
@@ -5621,6 +5562,102 @@
         "Metadata": {
           "Common.TypeName": "BlazorEcommerce.Client.Pages.ProductDetails",
           "Common.TypeNameIdentifier": "ProductDetails",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -92104432,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Admin.Categories",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Categories"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Admin.Categories",
+          "Common.TypeNameIdentifier": "Categories",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages.Admin",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1144345969,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Admin.Categories",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.Admin.Categories"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Admin.Categories",
+          "Common.TypeNameIdentifier": "Categories",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages.Admin",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2112009428,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.OrderDetails",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OrderDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "orderId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "orderId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.OrderDetails",
+          "Common.TypeNameIdentifier": "OrderDetails",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1822408694,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.OrderDetails",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.OrderDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "orderId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "orderId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.OrderDetails",
+          "Common.TypeNameIdentifier": "OrderDetails",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -6188,6 +6225,43 @@
         "Metadata": {
           "Common.TypeName": "BlazorEcommerce.Client.Shared.ShopNavMenu",
           "Common.TypeNameIdentifier": "ShopNavMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1907852287,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.AdminMenu",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AdminMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.AdminMenu",
+          "Common.TypeNameIdentifier": "AdminMenu",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 296528691,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Shared.AdminMenu",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Shared.AdminMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Shared.AdminMenu",
+          "Common.TypeNameIdentifier": "AdminMenu",
           "Common.TypeNamespace": "BlazorEcommerce.Client.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
