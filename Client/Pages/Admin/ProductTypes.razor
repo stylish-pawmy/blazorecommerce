@@ -1,0 +1,80 @@
+@page "/admin/producttypes"
+@inject IProductTypeService ProductTypeService
+@implements IDisposable
+
+<h3>Product Types</h3>
+
+@if (ProductTypeService.ProductTypes is null)
+{
+    <h5>Loading product types.</h5>
+} else if (ProductTypeService.ProductTypes.Count == 0)
+{
+    <h5>No product types found.</h5>
+} else {
+    @foreach (var productType in ProductTypeService.ProductTypes)
+    {
+        @if (productType.Editing)
+        {
+            
+            <EditForm Model="editingProductType" OnSubmit="(() => UpdateProductType(productType))">
+                <div class="row">
+                    <div class="col">
+                        <InputText class="form-control" @bind-Value="editingProductType.Name" />
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary"
+                            type="submit">
+                            <i class="oi oi-cloud-upload"></i>
+                        </button>
+                    </div>
+                </div>
+            </EditForm>
+        } else {
+            <div class="row">
+                <div class="col">
+                    <span>@productType.Name</span>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary"
+                        @onclick="(() => EditProductType(productType))">
+                        <i class="oi oi-pencil"></i>
+                    </button>
+                </div>
+            </div>
+        }
+    }
+
+    <button class="btn btn-primary"
+        @onclick="CreateProductType">
+        <i class="oi oi-plus"></i> new product type
+    </button>
+}
+
+@code {
+    ProductType editingProductType { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ProductTypeService.GetProductTypes();
+        ProductTypeService.OnChange += StateHasChanged;
+    }
+
+    private async Task EditProductType(ProductType productType)
+    {
+        editingProductType = productType;
+        productType.Editing = true;
+    }
+
+    private async Task CreateProductType()
+    {
+    }
+
+    private async Task UpdateProductType(ProductType productType)
+    {
+    }
+
+    public void Dispose()
+    {
+        ProductTypeService.OnChange -= StateHasChanged;
+    }
+}

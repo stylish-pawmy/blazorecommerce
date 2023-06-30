@@ -18,5 +18,10 @@ public class ProductTypeService : IProductTypeService
 
         if (result is not null && result.Data is not null)
             ProductTypes = result.Data;
+        else {
+            ProductTypes = new List<ProductType>();
+        }
+        
+        OnChange.Invoke();
     }
 }
