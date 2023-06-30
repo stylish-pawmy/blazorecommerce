@@ -4,7 +4,8 @@ public class ProductService : IProductService
 {
     private readonly HttpClient _http;
     public event Action ProductListChanged = () => {};
-    public List<Product> Products { get; set; } = new List<Product>();
+    public List<Product>? Products { get; set; } = null;
+    public List<Product>? AdminProducts { get; set; } = null;
     public string Message { get; set; } = string.Empty;
     public int CurrentPage { get; set; } = 1;
     public int PageCount { get; set; } = 0;
@@ -68,5 +69,18 @@ public class ProductService : IProductService
     {
         var response = await _http.GetFromJsonAsync<ServiceResponse<List<string>>>($"api/product/searchsuggestions/{searchText}");
         return response.Data;
+    }
+
+    public async Task GetAdminProducts()
+    {
+        var response = await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/product/admin");
+        AdminProducts = response.Data;
+        
+        CurrentPage = 1;
+        PageCount = 0;
+
+        if (AdminProducts.Count == 0)
+            Message = "No products found.";
+
     }
 }

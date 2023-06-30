@@ -7,8 +7,10 @@ public interface IProductService
     public int PageCount { get; set; }
     public string LastSearchText { get; set; }
     public event Action ProductListChanged;
-    public List<Product> Products { get; set; }
+    public List<Product>? Products { get; set; }
+    public List<Product>? AdminProducts { get; set; }
     public Task GetProducts(string? categoryUrl = null);
+    public Task GetAdminProducts();
     public Task<ServiceResponse<Product>> GetProduct(int productId);
     public Task SearchProducts(string searchText, int page);
     public Task<List<string>> GetProductsSearchSuggestions(string searchText);
