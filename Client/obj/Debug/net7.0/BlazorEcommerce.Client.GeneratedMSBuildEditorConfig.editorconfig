@@ -72,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lmaf0wuw71
 
+[/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Admin/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wkfny67zw1
+
 [/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Admin/ProductTypes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vUHJvZHVjdFR5cGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-t0lqt01ouy

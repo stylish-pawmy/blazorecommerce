@@ -152,6 +152,7 @@ public class ProductService : IProductService
             Data = await _context.Products
             .Where(p => !p.Deleted)
             .Include(p => p.Variants.Where(v => !v.Deleted && v.Visible))
+            .ThenInclude(v => v.ProductType)
             .ToListAsync()
         };
 
