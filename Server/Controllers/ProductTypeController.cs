@@ -20,4 +20,18 @@ public class ProductTypeController : ControllerBase
         var response = await _productTypeService.GetProductTypes();
         return response;
     }
+
+    [HttpPost]
+    public async Task<ActionResult<ServiceResponse<List<ProductType>>>> AddProductType(ProductType productType)
+    {
+        var response = await _productTypeService.AddProductType(productType);
+        return response;
+    }
+
+    [HttpPut]
+    public async Task<ActionResult<ServiceResponse<List<ProductType>>>> UpdateProductType(ProductType productType)
+    {
+        var response = await _productTypeService.UpdateProductType(productType);
+        return response;
+    }
 }
