@@ -67,10 +67,19 @@
 
     private async Task CreateProductType()
     {
+        editingProductType = ProductTypeService.CreateProductType();
     }
 
     private async Task UpdateProductType(ProductType productType)
     {
+        if (productType.IsNew)
+        {
+            await ProductTypeService.AddProductType(productType);
+        } else {
+            await ProductTypeService.UpdateProductType(productType);
+        }
+
+        editingProductType = new ProductType();
     }
 
     public void Dispose()

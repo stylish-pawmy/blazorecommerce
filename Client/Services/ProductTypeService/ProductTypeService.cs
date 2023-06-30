@@ -27,6 +27,7 @@ public class ProductTypeService : IProductTypeService
 
     public async Task AddProductType(ProductType productType)
     {
+        productType.Editing = productType.IsNew = false;
         var response = await _http.PostAsJsonAsync<ProductType>("api/producttype", productType);
         ProductTypes = (await response.Content.ReadFromJsonAsync<ServiceResponse<List<ProductType>>>()).Data;
         OnChange.Invoke();
