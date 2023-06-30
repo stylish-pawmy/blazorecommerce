@@ -14,5 +14,7 @@ public interface IProductService
     public Task<ServiceResponse<Product>> GetProduct(int productId);
     public Task SearchProducts(string searchText, int page);
     public Task<List<string>> GetProductsSearchSuggestions(string searchText);
-
+    public Task DeleteProduct(Product product);
+    public Task<Product> CreateProduct(Product product);
+    public Task<Product> UpdateProduct(Product product);
 }
