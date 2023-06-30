@@ -5,9 +5,13 @@ namespace BlazorEcommerce.Server.Services.ProductService;
 public class ProductService : IProductService
 {
     private readonly ApplicationDbContext _context;
-    public ProductService(ApplicationDbContext context)
+    private readonly IHttpContextAccessor _httpAccessor;
+    public ProductService(
+        ApplicationDbContext context,
+        IHttpContextAccessor httpAccessor)
     {
         _context = context;
+        _httpAccessor = httpAccessor;
     }
 
     public async Task<ServiceResponse<List<Product>>> GetProductsAsync()
@@ -40,19 +44,28 @@ public class ProductService : IProductService
     public async Task<ServiceResponse<Product>> GetProductAsync(int productId)
     {
         var response = new ServiceResponse<Product>();
-        var product = await _context.Products
-        .Where(p => !p.Deleted && p.Visible)
-        .Include(p => p.Variants.Where(v => !v.Deleted && v.Visible))
-        .ThenInclude(v => v.ProductType)
-        .FirstOrDefaultAsync(p => p.Id == productId);
+        Product? product;
+
+        if (_httpAccessor.HttpContext.User.IsInRole("Admin"))
+        {
+            product = await _context.Products
+            .Where(p => !p.Deleted)
+            .Include(p => p.Variants.Where(v => !v.Deleted))
+            .ThenInclude(v => v.ProductType)
+            .FirstOrDefaultAsync(p => p.Id == productId);
+        } else {
+            product = await _context.Products
+            .Where(p => !p.Deleted && p.Visible)
+            .Include(p => p.Variants.Where(v => !v.Deleted && v.Visible))
+            .ThenInclude(v => v.ProductType)
+            .FirstOrDefaultAsync(p => p.Id == productId);
+        }
 
         if (product is null)
         {
             response.Message = "Product could not be retrieved from Database.";
             response.Success = false;
-        }
-        else
-        {
+        } else {
             response.Data = product;
             response.Message = "Product retrieved successfully.";
         }
@@ -156,6 +169,88 @@ public class ProductService : IProductService
             .ToListAsync()
         };
 
+        return response;
+    }
+
+    public async Task<ServiceResponse<Product>> UpdateProductAsync(Product product)
+    {
+        var response = new ServiceResponse<Product>();
+        var dbProduct = await _context.Products.FindAsync(product.Id);
+
+        if (dbProduct is null)
+        {
+            response.Success = false;
+            response.Message = "Product not found.";
+        } else {
+            dbProduct.Title = product.Title;
+            dbProduct.Description = product.Description;
+            dbProduct.ImageUrl = dbProduct.ImageUrl;
+            dbProduct.CategoryId = dbProduct.CategoryId;
+            dbProduct.Featured = product.Featured;
+            dbProduct.Visible = dbProduct.Visible;
+
+            var dbVariants = await _context.ProductVariants
+            .Where(v => !v.Deleted)
+            .Include(v => v.ProductType)
+            .ToListAsync();
+
+            foreach (var variant in product.Variants)
+            {
+                var dbVariant = await _context.ProductVariants
+                .Where(v => v.ProductId == variant.ProductId
+                    && v.ProductTypeId == variant.ProductTypeId)
+                .Include(v => v.ProductType)
+                .FirstOrDefaultAsync();
+
+                if (dbVariant is null)
+                {
+                    variant.ProductType = null;
+                    _context.ProductVariants.Add(variant);
+                } else {
+                    dbVariant.ProductTypeId = variant.ProductTypeId;
+                    dbVariant.Price = variant.Price;
+                    dbVariant.OriginalPrice = variant.OriginalPrice;
+                    dbVariant.Visible = variant.Visible;
+                    dbVariant.Deleted = variant.Deleted;
+                }
+            }
+        }
+
+        await _context.SaveChangesAsync();
+        response.Data = product;
+        return response;
+    }
+
+    public async Task<ServiceResponse<bool>> DeleteProductAsync(int productId)
+    {
+        var response = new ServiceResponse<bool>();
+        var product = await _context.Products.FindAsync(productId);
+
+        if (product is null)
+        {
+            response.Success = false;
+            response.Message = "Product not found.";
+        }
+
+        product.Deleted = true;
+
+        await _context.SaveChangesAsync();
+        response.Data = true;
+        response.Success = true;
+        return response;
+    }
+
+    public async Task<ServiceResponse<Product>> CreateProductAsync(Product product)
+    {
+        var response = new ServiceResponse<Product>();
+
+        foreach (var variant in product.Variants)
+            variant.ProductType = null;
+
+        _context.Products.Add(product);
+
+        await _context.SaveChangesAsync();
+        response.Data = product;
         return response;
     }
 }
