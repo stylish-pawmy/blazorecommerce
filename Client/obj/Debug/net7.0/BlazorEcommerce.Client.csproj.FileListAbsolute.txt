@@ -864,3 +864,4 @@
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Pages/Admin/Categories.razor.rz.scp.css
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Pages/Admin/ProductTypes.razor.rz.scp.css
 /home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Pages/Admin/Products.razor.rz.scp.css
+/home/pawmy/Projects/BlazorEcommerce/Client/obj/Debug/net7.0/scopedcss/Pages/Admin/EditProduct.razor.rz.scp.css

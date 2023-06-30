@@ -187,7 +187,7 @@ public class ProductService : IProductService
             dbProduct.ImageUrl = dbProduct.ImageUrl;
             dbProduct.CategoryId = dbProduct.CategoryId;
             dbProduct.Featured = product.Featured;
-            dbProduct.Visible = dbProduct.Visible;
+            dbProduct.Visible = product.Visible;
 
             var dbVariants = await _context.ProductVariants
             .Where(v => !v.Deleted)

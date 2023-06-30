@@ -20,6 +20,33 @@
 .col-visible[b-lmaf0wuw71] {
     text-align:center;
 }
+/* /Pages/Admin/EditProduct.razor.rz.scp.css */
+img[b-gnigp7ldj7] {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.row[b-gnigp7ldj7] {
+    display: flex;
+    padding: 6px;
+}
+
+.col[b-gnigp7ldj7] {
+    flex: 1;
+}
+
+.header[b-gnigp7ldj7] {
+    display: flex;
+    font-weight: 600;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.col-visible[b-gnigp7ldj7] {
+    text-align: center;
+}
 /* /Pages/Admin/Products.razor.rz.scp.css */
 img[b-wkfny67zw1] {
     max-width: 100px;

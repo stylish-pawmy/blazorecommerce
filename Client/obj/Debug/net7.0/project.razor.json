@@ -474,7 +474,7 @@
         }
       },
       {
-        "HashCode": 306027179,
+        "HashCode": -1182328372,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Admin.EditProduct",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -482,6 +482,17 @@
         "TagMatchingRules": [
           {
             "TagName": "EditProduct"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "productId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "productId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
           }
         ],
         "Metadata": {
@@ -492,7 +503,7 @@
         }
       },
       {
-        "HashCode": -1522342770,
+        "HashCode": -1117838497,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Admin.EditProduct",
         "AssemblyName": "BlazorEcommerce.Client",
@@ -500,6 +511,17 @@
         "TagMatchingRules": [
           {
             "TagName": "BlazorEcommerce.Client.Pages.Admin.EditProduct"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "productId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "productId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
           }
         ],
         "Metadata": {
