@@ -55,4 +55,11 @@ public class ProductController : ControllerBase
         var response = await _productService.GetFeaturedProductsAsync();
         return Ok(response);
     }
+
+    [HttpGet("admin")]
+    public async Task<ActionResult<ServiceResponse<List<Product>>>> GetAdminProducts()
+    {
+        var response = await _productService.GetAdminProductsAsync();
+        return Ok(response);
+    }
 }

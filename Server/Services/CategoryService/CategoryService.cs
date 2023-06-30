@@ -35,7 +35,7 @@ public class CategoryService : ICategoryService
     {
         var response = new ServiceResponse<List<Category>>()
         {
-            Data = await _context.Categories.ToListAsync<Category>()
+            Data = await _context.Categories.Where(c => !c.Deleted).ToListAsync<Category>()
         };
 
         return response;
