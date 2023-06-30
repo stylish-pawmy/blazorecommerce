@@ -474,6 +474,43 @@
         }
       },
       {
+        "HashCode": 306027179,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Admin.EditProduct",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditProduct"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Admin.EditProduct",
+          "Common.TypeNameIdentifier": "EditProduct",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages.Admin",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1522342770,
+        "Kind": "Components.Component",
+        "Name": "BlazorEcommerce.Client.Pages.Admin.EditProduct",
+        "AssemblyName": "BlazorEcommerce.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorEcommerce.Client.Pages.Admin.EditProduct"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorEcommerce.Client.Pages.Admin.EditProduct",
+          "Common.TypeNameIdentifier": "EditProduct",
+          "Common.TypeNamespace": "BlazorEcommerce.Client.Pages.Admin",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 1693755046,
         "Kind": "Components.Component",
         "Name": "BlazorEcommerce.Client.Pages.Cart",
@@ -17797,6 +17834,11 @@
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/Admin/EditProduct.razor",
+      "TargetPath": "Pages\\Admin\\EditProduct.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "/home/pawmy/Projects/BlazorEcommerce/Client/Pages/PaymentSuccess.razor",
