@@ -24,4 +24,27 @@ public class ProductTypeService : IProductTypeService
         
         OnChange.Invoke();
     }
+
+    public async Task AddProductType(ProductType productType)
+    {
+        var response = await _http.PostAsJsonAsync<ProductType>("api/producttype", productType);
+        ProductTypes = (await response.Content.ReadFromJsonAsync<ServiceResponse<List<ProductType>>>()).Data;
+        OnChange.Invoke();
+    }
+
+    public async Task UpdateProductType(ProductType productType)
+    {
+        var response = await _http.PutAsJsonAsync<ProductType>("api/producttype", productType);
+        ProductTypes = (await response.Content.ReadFromJsonAsync<ServiceResponse<List<ProductType>>>()).Data;
+        OnChange.Invoke();
+    }
+
+    public ProductType CreateProductType()
+    {
+        var productType = new ProductType {IsNew = true, Editing = true};
+        ProductTypes.Add(productType);
+        OnChange.Invoke();
+
+        return productType;
+    }
 }
